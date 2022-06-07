@@ -21,14 +21,24 @@ const FileUploader = ({
     bottomDivider,
     hasBgColor,
     invertColor,
-    setFile,
+    setRunning,
     ...props
 }) => {
 
-    const handleChange = (e) => {
-        const [f] = e.target.files;
-        setFile(f);
-    };
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const formData = new FormData(e.target);
+        
+        const Upload = async() => {
+          await fetch('/api/startWorkflow', {
+            method: 'POST',
+            body: formData
+          }).then(resp => {
+            resp.json().then(data => {console.log(data)})
+          })
+        }
+        Upload();
+      }
 
     const outerClasses = classNames(
         'hero section center-content',
@@ -62,19 +72,35 @@ const FileUploader = ({
                             Upload a flyer of your choice.
                         </p>
                     </div>
-                    <div className="file-uploader">
+                    {/*<div className="container">
                         <Input
                             id="getFile"
                             type="file"
+                            name="file"
                             label="Upload your file here"
                             labelHidden
                             placeholder="Drag your File here"
                             setFile
-                            onChange={handleChange} 
-                            multiple={false} >
+                            onChange={handleChange}
+                            multiple={false}
+                            hasIcon='right'
+                            style={{ height: '52px', width: '900px', fill: 'green' }}>
                         </Input>
-                        
-                    </div>
+    </div>**/}
+                
+                    <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" enctype="multipart/form-data">
+                        <div className="form-inline justify-content-center mt-5">
+                            <div className="input-group">
+                                <Input type="file" id="image" name="file" placeholder="Drag your File here"
+                                    accept="image/*" className="file-custom" hasIcon='right'
+                                    style={{ height: '52px', width: '900px'}}/>
+                            </div>
+                        </div>
+
+                        <div className="input-group justify-content-center mt-4">
+                            <Button type="submit" color="dark" wideMobile >START</Button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
