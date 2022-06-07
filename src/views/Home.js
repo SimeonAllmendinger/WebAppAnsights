@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useCallback }  from 'react';
+import React, { useEffect, useState }  from 'react';
 // import sections
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
-import Cta from '../components/sections/Cta';
+//import Cta from '../components/sections/Cta';
 /* <Cta split />**/
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
   
   useEffect(() => {
     fetch('/api/time').then(res => res.json()).then(data => {
-      console.log(data.time)
+      console.log(data.time);
       setCurrentTime(data.time);
     });
   }, []);

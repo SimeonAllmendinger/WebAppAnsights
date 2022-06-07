@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import React, { } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
@@ -21,6 +20,7 @@ const FileUploader = ({
     bottomDivider,
     hasBgColor,
     invertColor,
+    running,
     setRunning,
     ...props
 }) => {
@@ -28,17 +28,36 @@ const FileUploader = ({
     const handleSubmit = (e) => {
         e.preventDefault()
         const formData = new FormData(e.target);
-        
-        const Upload = async() => {
-          await fetch('/api/startWorkflow', {
-            method: 'POST',
-            body: formData
-          }).then(resp => {
-            resp.json().then(data => {console.log(data)})
-          })
-        }
-        Upload();
-      }
+
+        const upload = async () => {
+            await fetch('/api/uploadImage', {
+                method: 'POST',
+                body: formData
+            }).then(resp => {
+                resp.json().then(data => {
+                    console.log(data);
+                    data.success ? setRunning(true) : setRunning(false);
+                });
+
+            })
+        };
+        upload();
+    }
+
+    const handleWorkflow = () => {
+        const startWorkflow = async () => {
+            await fetch('/api/startWorkflow', {
+                method: 'POST'
+            }).then(resp => {
+                resp.json().then(data => {
+                    console.log(data);
+                    data.success ? setRunning(false) : setRunning(true);
+                });
+
+            })
+        };
+        startWorkflow();
+    }
 
     const outerClasses = classNames(
         'hero section center-content',
@@ -72,22 +91,9 @@ const FileUploader = ({
                             Upload a flyer of your choice.
                         </p>
                     </div>
-                    {/*<div className="container">
-                        <Input
-                            id="getFile"
-                            type="file"
-                            name="file"
-                            label="Upload your file here"
-                            labelHidden
-                            placeholder="Drag your File here"
-                            setFile
-                            onChange={handleChange}
-                            multiple={false}
-                            hasIcon='right'
-                            style={{ height: '52px', width: '900px', fill: 'green' }}>
-                        </Input>
-    </div>**/}
-                
+
+
+                    {running ? handleWorkflow():
                     <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" enctype="multipart/form-data">
                         <div className="form-inline justify-content-center mt-5">
                             <div className="input-group">
@@ -96,11 +102,11 @@ const FileUploader = ({
                                     style={{ height: '52px', width: '900px'}}/>
                             </div>
                         </div>
-
                         <div className="input-group justify-content-center mt-4">
                             <Button type="submit" color="dark" wideMobile >START</Button>
                         </div>
                     </form>
+                    }
                 </div>
             </div>
         </section>

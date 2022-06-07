@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+
 // import sections
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 
