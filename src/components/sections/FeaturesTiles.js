@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Why VisualAnzeights?',
-    paragraph: 'XXX.'
+    paragraph: 'Discover time references of former voices.'
   };
 
   return (

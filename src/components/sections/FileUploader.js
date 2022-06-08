@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import Button from '../elements/Button';
+import * as Loader from 'react-loader-spinner';
 
 const propTypes = {
     ...SectionProps.types
@@ -22,6 +23,9 @@ const FileUploader = ({
     invertColor,
     running,
     setRunning,
+    setNodes,
+    setEdges,
+    setOptions,
     ...props
 }) => {
 
@@ -36,7 +40,12 @@ const FileUploader = ({
             }).then(resp => {
                 resp.json().then(data => {
                     console.log(data);
-                    data.success ? setRunning(true) : setRunning(false);
+                    if (data.success) {
+                        setRunning(true);
+                        handleWorkflow();
+                    } else {
+                      console.log('FILE UPLOAD FAILED');
+                    }
                 });
 
             })
@@ -51,7 +60,7 @@ const FileUploader = ({
             }).then(resp => {
                 resp.json().then(data => {
                     console.log(data);
-                    data.success ? setRunning(false) : setRunning(true);
+                    data.success ? setRunning(false) : console.log('WORKFLOW NOT RUNNING');
                 });
 
             })
@@ -92,21 +101,26 @@ const FileUploader = ({
                         </p>
                     </div>
 
-
-                    {running ? handleWorkflow():
-                    <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" enctype="multipart/form-data">
-                        <div className="form-inline justify-content-center mt-5">
-                            <div className="input-group">
-                                <Input type="file" id="image" name="file" placeholder="Drag your File here"
-                                    accept="image/*" className="file-custom" hasIcon='right'
-                                    style={{ height: '52px', width: '900px'}}/>
+                    {running ?
+                        <div>
+                            <Loader.ThreeDots color="dark" />
+                        </div> 
+                        :
+                        <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
+                            <div className="form-inline justify-content-center mt-5">
+                                <div className="input-group">
+                                    <Input type="file" id="image" name="file" placeholder="Drag your File here"
+                                        accept="image/*" className="file-custom" hasIcon='right'
+                                        style={{ height: '52px', width: '900px' }} />
+                                </div>
                             </div>
-                        </div>
-                        <div className="input-group justify-content-center mt-4">
-                            <Button type="submit" color="dark" wideMobile >START</Button>
-                        </div>
-                    </form>
+                            <div className="input-group justify-content-center mt-4">
+                                <Button type="submit" color="dark" wideMobile >START</Button>
+                            </div>
+                        </form>
                     }
+
+    
                 </div>
             </div>
         </section>

@@ -22,6 +22,9 @@ const KeywordGraph = ({
     nodes,
     edges,
     options,
+    setNodes,
+    setEdges,
+    setOptions,
     ...props
 }) => {
     const container = useRef(null);

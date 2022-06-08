@@ -23,7 +23,7 @@ const Home = () => {
     <>
       <Hero className="illustration-section-01" currentTime={currentTime}/>
       <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <FeaturesSplit invertMobile topDivider imageFill />
       <Testimonial topDivider />
        
     </>
