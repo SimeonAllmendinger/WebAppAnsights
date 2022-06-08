@@ -44,9 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Why VisualAnzeights?',
-    paragraph: 'As participiants of the Coding DaVinci Hackathon, we wanted to connect data sources with \
-    the German Reichsanzeiger contributing its experiencability.'
+    title: 'Our Team',
+    paragraph: 'Open for suggestions at any time.'
   };
 
   return (
@@ -63,19 +62,19 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
+                  <Image
+                      src={require('../../assets/images/About/Emil.jpg')}
+                      alt="Emil"
+                      height={60}
+                      width={300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Emil
                     </h4>
                   <p className="m-0 text-sm">
-                    XXX.
+                    Data Analyst
                     </p>
                 </div>
               </div>
@@ -86,18 +85,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
+                      src={require('../../assets/images/About/Joel.jpg')}
+                      alt="Joel"
+                      height={60}
+                      width={300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Visualization
+                    Joel Oswald
                     </h4>
                   <p className="m-0 text-sm">
-                    XXX.
+                    Software Engineer
                     </p>
                 </div>
               </div>
@@ -107,19 +106,19 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
+                  <Image
+                      src={require('../../assets/images/About/Simeon.jpg')}
+                      alt="Simeon"
+                      height={60}
+                      width={300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Open Source
+                    Simeon Allmendinger
                     </h4>
                   <p className="m-0 text-sm">
-                    XXX.
+                    Software Engineer
                     </p>
                 </div>
               </div>

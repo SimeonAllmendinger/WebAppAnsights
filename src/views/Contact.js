@@ -1,15 +1,15 @@
 import React from 'react';
 
 // import sections
-import FeaturesTiles from '../components/sections/FeaturesTiles';
+import Cta from '../components/sections/Cta';
 
-/* <Cta split />**/
+
 
 const Contact = () => {
 
   return (
     <>
-      <FeaturesTiles />
+      <Cta/>
     </>
   );
 }

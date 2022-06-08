@@ -127,9 +127,9 @@ const FeaturesSplit = ({
                   Discover a new experience of source scans
                   </h3>
                 <p className="m-0">
-                  Our net graph shows the relations between all reelevant articles in accordance to your query. 
-                  The distance to your flyer and among each other can give indications of a thematic dependency 
-                  to enable a targeted search.
+                  Our net graph shows the relations between all relevant articles in accordance to your query. 
+                  The distance to your flyer and among articles in the Reichsanzeiger can give indications of a 
+                  thematic dependency to enable a targeted search.
                   </p>
               </div>
               <div className={

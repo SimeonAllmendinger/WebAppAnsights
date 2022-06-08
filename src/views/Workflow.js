@@ -71,45 +71,8 @@ const Workflow = () => {
     { color: null, "from": 8, smooth: false, title: "Arbeiter,streiken,Gasarbeiter", to: "KEY", value: 3, weight: 3 },
     { color: null, "from": 9, smooth: false, title: "Sorgt,Arbeiter,Betriebe", to: "KEY", value: 3, weight: 3 }]);
 
-  const [options, setOptions] = useState({
+  const [options, setOptions] = useState(require("../assets/example_net/options.json"));
 
-
-    configure: {
-      enabled: false
-    },
-    edges: {
-      color: {
-        inherit: true
-      },
-      smooth: {
-        enabled: true,
-        type: "dynamic"
-      }
-    },
-    interaction: {
-      dragNodes: true,
-      hideEdgesOnDrag: false,
-      hideNodesOnDrag: false
-    },
-    physics: {
-      barnesHut: {
-        avoidOverlap: 0,
-        centralGravity: 0.3,
-        damping: 0.09,
-        gravitationalConstant: -80000,
-        springConstant: 0.001,
-        springLength: 250
-      },
-      enabled: true,
-      stabilization: {
-        enabled: true,
-        fit: true,
-        iterations: 1000,
-        onlyDynamicEdges: false,
-        updateInterval: 50
-      }
-    }
-  });
 
   return (
     <>

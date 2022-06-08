@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>About</Link>
+                      <Link to="/about" onClick={closeMenu}>About</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" 
+                        <Link to="/contact" 
                         onClick={closeMenu}>Contact us</Link>
                       </li>
                     </ul>}

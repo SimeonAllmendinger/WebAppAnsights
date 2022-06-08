@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import SectionHeader from './partials/SectionHeader';
 
 const propTypes = {
   ...SectionProps.types,
@@ -42,12 +43,18 @@ const Cta = ({
     split && 'cta-split'
   );  
 
+  const sectionHeader = {
+    title: 'Contact us',
+    paragraph: 'Please reach out to us, if you need support.'
+  };
+
   return (
     <section
       {...props}
       className={outerClasses}
     >
       <div className="container">
+      <SectionHeader data={sectionHeader} className="center-content" />
         <div
           className={innerClasses}
         >

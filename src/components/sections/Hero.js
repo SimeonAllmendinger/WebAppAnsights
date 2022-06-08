@@ -73,11 +73,11 @@ const Hero = ({
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile>
-                    <Link to="/workflow">
+                  <Link to="/workflow">
+                    <Button tag="a" color="primary" wideMobile>
                       Get started
-                    </Link>
-                  </Button>
+                    </Button>
+                  </Link>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/joelosw/VisualAnzeights.git">
                     View on Github
                   </Button>
@@ -87,7 +87,7 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://www.youtube.com/watch?v=JPm0_xCM1kQ%26t=84s"
+              data-video="https://www.youtube.com/embed/JPm0_xCM1kQ?autplay=1"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
@@ -104,7 +104,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://www.youtube.com/watch?v=JPm0_xCM1kQ%26t=84s"
+            video="https://www.youtube.com/embed/JPm0_xCM1kQ?autplay=1"
             videoTag="iframe" />
         </div>
       </div>
