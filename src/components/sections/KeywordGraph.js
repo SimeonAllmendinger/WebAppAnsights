@@ -48,7 +48,7 @@ const KeywordGraph = ({
         const network =
             container.current &&
             new Network(container.current, { nodes, edges }, options);
-    }, [container, nodes, edges]);
+    }, [container, nodes, edges, options]);
 
     return (
         <section
