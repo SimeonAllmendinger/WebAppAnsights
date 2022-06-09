@@ -1,9 +1,10 @@
-import React, { } from 'react';
+import React, {useState, ChangeEvent}from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
+import Checkbox from '../elements/Checkbox';
 
 const propTypes = {
     ...SectionProps.types
@@ -28,6 +29,30 @@ const FileUploader = ({
     setOptions,
     ...props
 }) => {
+    const[gndChecked, setGndChecked] = useState(true)
+
+    const handleGND = () => {
+        setGndChecked(!gndChecked)
+
+        const upload = async () => {
+            await fetch('/api/uploadGnd', {
+                method: 'POST',
+                body: JSON.stringify({
+                    gnd: gndChecked
+                  })
+            }).then(resp => {
+                resp.json().then(data => {
+                    if (data.success) {
+                      console.log(data);
+                    } else {
+                      console.log('GND UPLOAD FAILED');
+                    }
+                });
+
+            })
+        };
+        upload();
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -53,14 +78,21 @@ const FileUploader = ({
         upload();
     }
 
-    const handleWorkflow = () => {
+    const handleWorkflow = (n) => {
         const startWorkflow = async () => {
             await fetch('/api/startWorkflow', {
                 method: 'POST'
             }).then(resp => {
                 resp.json().then(data => {
                     console.log(data);
-                    data.success ? setRunning(false) : console.log('WORKFLOW NOT RUNNING');
+                    if (data.success) {
+                        setRunning(false);
+                        setNodes(data.nodes);
+                        setEdges(data.edges);
+                        //setOptions(data.options);
+                    } else {
+                        console.log('WORKFLOW NOT RUNNING');
+                    }
                 });
 
             })
@@ -83,7 +115,6 @@ const FileUploader = ({
         bottomDivider && 'has-bottom-divider'
     );
 
-
     return (
         <section
             {...props}
@@ -104,20 +135,30 @@ const FileUploader = ({
                     {running ?
                         <div>
                             <Loader.ThreeDots color="dark" />
-                        </div> 
+                        </div>
                         :
-                        <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
+                        <div>
+
                             <div className="form-inline justify-content-center mt-5">
                                 <div className="input-group">
-                                    <Input type="file" id="image" name="file" placeholder="Drag your File here"
-                                        accept="image/*" className="file-custom" hasIcon='right'
-                                        style={{ height: '52px', width: '900px' }} />
+                                    <Checkbox onChange={handleGND}>GND</Checkbox>
                                 </div>
                             </div>
-                            <div className="input-group justify-content-center mt-4">
-                                <Button type="submit" color="dark" wideMobile >START</Button>
-                            </div>
-                        </form>
+
+                            <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
+                                <div className="form-inline justify-content-center mt-5">
+                                    <div className="input-group">
+                                        <Input type="file" id="image" name="file" placeholder="Drag your File here"
+                                            accept="image/*" className="file-custom" hasIcon='right'
+                                            style={{ height: '52px', width: '900px' }} />
+                                    </div>
+                                </div>
+                                <div className="input-group justify-content-center mt-4">
+                                    <Button type="submit" color="dark" wideMobile >SHOW ANZEIGER</Button>
+                                </div>
+                            </form>
+                            
+                        </div>
                     }
 
     

@@ -51,15 +51,14 @@ const KeywordGraph = ({
             
             network.on("selectNode", function (params) {
                 console.log("selectNode Event:", params);
-                if (params.nodes.length === 1) {
-                    var node = nodes[params.nodes[0]];
+                if (params.nodes.length === 1 && params.nodes[0] !== "KEY") {
+                    var node = nodes[params.nodes[0]+1];
                     window.open(node.url, '_blank');
                 }
               });
     }, [container, nodes, edges, options]);
     
     
-
     return (
         <section
             {...props}
@@ -67,7 +66,7 @@ const KeywordGraph = ({
         >
             <div className="container-sm">
                 <div className={innerClasses}>
-                  <div ref={container} style={{ height: '600px', width: '900px' }} />
+                  <div ref={container} style={{ height: '800px', width: '100%' }} />
                   </div>
             </div>
         </section>

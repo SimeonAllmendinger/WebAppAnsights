@@ -33,9 +33,5 @@
             "onlyDynamicEdges": false,
             "updateInterval": 50
         }
-    },
-    "nodes": {
-        "chosen": true
-          }
-            
+    }
 }
