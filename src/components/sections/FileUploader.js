@@ -69,7 +69,7 @@ const FileUploader = ({
                         setRunning(true);
                         handleWorkflow();
                     } else {
-                      console.log('FILE UPLOAD FAILED');
+                        console.log('FILE UPLOAD FAILED');
                     }
                 });
 
@@ -121,7 +121,7 @@ const FileUploader = ({
             className={outerClasses}
         >
             <div className="container-sm">
-                <div className={innerClasses}>
+                <div className={innerClasses} style={{ "padding-bottom": 0 }}>
                     <h1 className="mt-0 mb-16 reveal-from-bottom"
                         data-reveal-delay="200">
                         Start your <span className="text-color-primary">Workflow</span>
@@ -161,7 +161,7 @@ const FileUploader = ({
                         </div>
                     }
 
-    
+
                 </div>
             </div>
         </section>

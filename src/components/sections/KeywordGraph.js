@@ -48,28 +48,28 @@ const KeywordGraph = ({
         const network =
             container.current &&
             new Network(container.current, { nodes, edges }, options);
-            
-            network.on("selectNode", function (params) {
-                console.log("selectNode Event:", params);
-                if (params.nodes.length === 1 && params.nodes[0] !== "KEY") {
-                    var node = nodes[params.nodes[0]+1];
-                    window.open(node.url, '_blank');
-                }
-              });
+
+        network.on("selectNode", function (params) {
+            console.log("selectNode Event:", params);
+            if (params.nodes.length === 1 && params.nodes[0] !== "KEY") {
+                var node = nodes[params.nodes[0] + 1];
+                window.open(node.url, '_blank');
+            }
+        });
     }, [container, nodes, edges, options]);
-    
-    
+
+
     return (
         <section
             {...props}
             className={outerClasses}
         >
             <div className="container-sm">
-                <div className={innerClasses}>
-                  <div ref={container} style={{ height: '800px', width: '100%' }} />
-                  </div>
+                <div className={innerClasses} style={{ "padding-top": "3px", "padding-bottom": "10px" }}>
+                    <div ref={container} style={{ height: '800px', width: '100%' }} />
+                </div>
             </div>
-        </section>
+        </section >
     );
 };
 
