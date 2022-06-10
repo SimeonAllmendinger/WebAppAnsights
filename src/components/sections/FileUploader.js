@@ -5,6 +5,7 @@ import Input from '../elements/Input';
 import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
+import { DropdownDate, DropdownComponent } from "react-dropdown-date";
 
 const propTypes = {
     ...SectionProps.types
@@ -22,6 +23,7 @@ const FileUploader = ({
     bottomDivider,
     hasBgColor,
     invertColor,
+    pushLeft,
     running,
     setRunning,
     setNodes,
@@ -30,6 +32,42 @@ const FileUploader = ({
     ...props
 }) => {
     const[gndChecked, setGndChecked] = useState(true)
+    const[date, setDate] = useState("1945-01-01")
+    
+    const formatDate = (date) => {
+        // formats a JS date to 'yyyy-mm-dd'
+        var d = new Date(date),
+          month = "" + (d.getMonth() + 1),
+          day = "" + d.getDate(),
+          year = d.getFullYear();
+      
+        if (month.length < 2) month = "0" + month;
+        if (day.length < 2) day = "0" + day;
+      
+        return [year, month, day].join("-");
+      };  
+
+
+    const handleDate = (e) => {
+        const upload = async (e) => {
+            await fetch('/api/uploadDate', {
+                method: 'POST',
+                body: JSON.stringify({
+                    date: e
+                })
+            }).then(resp => {
+                resp.json().then(data => {
+                    if (data.success) {
+                        console.log(data);
+                    } else {
+                        console.log('DATE UPLOAD FAILED');
+                    }
+                });
+
+            })
+        };
+        upload(e);
+    }
 
     const handleGND = () => {
         setGndChecked(!gndChecked)
@@ -115,6 +153,11 @@ const FileUploader = ({
         bottomDivider && 'has-bottom-divider'
     );
 
+    const tilesClasses = classNames(
+        'tiles-wrap center-content',
+        pushLeft && 'push-left'
+      );
+
     return (
         <section
             {...props}
@@ -140,8 +183,18 @@ const FileUploader = ({
                         <div>
 
                             <div className="form-inline justify-content-center mt-5">
-                                <div className="input-group">
+                                <div className='input-group'>
                                     <Checkbox onChange={handleGND}>GND</Checkbox>
+                                    <DropdownDate
+                                        startDate={"1800-01-01"}
+                                        endDate={"1945-12-31"}
+                                        selectedDate={date}
+                                        onDateChange={(e) => {
+                                            console.log(e);
+                                            setDate(formatDate(e));
+                                            handleDate(formatDate(e))
+                                        }}
+                                    />
                                 </div>
                             </div>
 
