@@ -1,11 +1,11 @@
-import React, {useState, ChangeEvent}from 'react';
+import React, {useState}from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
-import { DropdownDate, DropdownComponent } from "react-dropdown-date";
+import { DropdownDate} from "react-dropdown-date";
 
 const propTypes = {
     ...SectionProps.types
@@ -153,11 +153,6 @@ const FileUploader = ({
         bottomDivider && 'has-bottom-divider'
     );
 
-    const tilesClasses = classNames(
-        'tiles-wrap center-content',
-        pushLeft && 'push-left'
-      );
-
     return (
         <section
             {...props}
@@ -165,12 +160,11 @@ const FileUploader = ({
         >
             <div className="container-sm">
                 <div className={innerClasses} style={{ "padding-bottom": 0 }}>
-                    <h1 className="mt-0 mb-16 reveal-from-bottom"
-                        data-reveal-delay="200">
+                    <h1 className="mt-0 mb-16 reveal-from-bottom">
                         Start your <span className="text-color-primary">Workflow</span>
                     </h1>
                     <div className="container-xs">
-                        <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                        <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
                             Upload a flyer of your choice.
                         </p>
                     </div>

@@ -1,7 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import { Network, DataSet } from 'vis-network';
+import React, { useEffect, useRef, useState} from 'react';
+import { Network} from 'vis-network';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+import Image from '../elements/Image';
+import Modal from '../elements/Modal';
 
 const propTypes = {
     ...SectionProps.types
@@ -28,6 +30,17 @@ const KeywordGraph = ({
     ...props
 }) => {
     const container = useRef(null);
+    const [flyerModalActive, setFlyermodalactive] = useState(false);
+
+    const openModal = (e) => {
+        e.preventDefault();
+        setFlyermodalactive(true);
+    }
+
+    const closeModal = (e) => {
+        e.preventDefault();
+        setFlyermodalactive(false);
+    }
 
     const outerClasses = classNames(
         'keywordGraph-outer section',
@@ -54,6 +67,8 @@ const KeywordGraph = ({
             if (params.nodes.length === 1 && params.nodes[0] !== "KEY") {
                 var node = nodes[params.nodes[0] + 1];
                 window.open(node.url, '_blank');
+            } if (params.nodes.length === 1 && params.nodes[0] === "KEY") {
+                setFlyermodalactive(true)
             }
         });
     }, [container, nodes, edges, options]);
@@ -68,7 +83,24 @@ const KeywordGraph = ({
                 <div className={innerClasses} style={{ "padding-top": "3px", "padding-bottom": "10px" }}>
                     <div ref={container} style={{ height: '800px', width: '100%' }} />
                 </div>
+                <div
+                    aria-controls="video-modal"
+                    onClick={openModal}
+                >
+                </div>
             </div>
+            <Modal
+                id="video-modal"
+                show={flyerModalActive}
+                handleClose={closeModal}
+                videoTag="iframe">
+                <Image
+                    className="has-shadow"
+                    src={require('../../assets/images/scan_examples/example_flyer.jpg')}
+                    alt="Hero"
+                    width={896}
+                    height={504} />
+            </Modal>
         </section >
     );
 };
