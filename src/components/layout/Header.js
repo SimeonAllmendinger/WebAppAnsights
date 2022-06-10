@@ -108,7 +108,7 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
-                      'list-reset text-xs',
+                      'list-reset header-nav-right',
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
