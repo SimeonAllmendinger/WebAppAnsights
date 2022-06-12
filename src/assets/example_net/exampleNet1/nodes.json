@@ -2,7 +2,7 @@
     "nodes": [
         {
             "id": "KEY",
-            "image": "../assets/images/scan_examples/example_flyer.jpg",
+            "image": "../assets/images/scan_examples/example_flyer.jpeg",
             "label": "Flugblatt",
             "shape": "image",
             "size": 60,
@@ -32,7 +32,7 @@
         {
             "color": "rgba(70, 227, 228, 0.7)",
             "id": 2,
-            "image": "../assets/images/scan_examples/example_scan.jpg",
+            "image": "../assets/images/scan_examples/example_scan1.jpeg",
             "label": "0372.hocr",
             "shape": "image",
             "size": 20,
@@ -92,7 +92,7 @@
         {
             "color": "rgba(254, 255, 150, 0.7)",
             "id": 8,
-            "image": "../assets/images/scan_examples/example_scan.jpg",
+            "image": "../assets/images/scan_examples/example_scan1.jpeg",
             "label": "0359.hocr",
             "shape": "image",
             "size": 30,

@@ -29,6 +29,7 @@ const FileUploader = ({
     setNodes,
     setEdges,
     setOptions,
+    get_nodes,
     ...props
 }) => {
     const[gndChecked, setGndChecked] = useState(true)
@@ -125,7 +126,7 @@ const FileUploader = ({
                     console.log(data);
                     if (data.success) {
                         setRunning(false);
-                        setNodes(data.nodes);
+                        setNodes(get_nodes(data.nodes));
                         setEdges(data.edges);
                         //setOptions(data.options);
                     } else {
@@ -159,7 +160,7 @@ const FileUploader = ({
             className={outerClasses}
         >
             <div className="container-sm">
-                <div className={innerClasses} style={{ "padding-bottom": 0 }}>
+                <div className={innerClasses} style={{ "paddingBottom": 0 }}>
                     <h1 className="mt-0 mb-16 reveal-from-bottom">
                         Start your <span className="text-color-primary">Workflow</span>
                     </h1>

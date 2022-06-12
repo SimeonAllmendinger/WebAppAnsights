@@ -29,6 +29,7 @@ const KeywordGraph = ({
     setOptions,
     ...props
 }) => {
+
     const container = useRef(null);
     const [flyerModalActive, setFlyermodalactive] = useState(false);
 
@@ -95,8 +96,8 @@ const KeywordGraph = ({
                 handleClose={closeModal}
                 videoTag="iframe">
                 <Image
-                    className="has-shadow"
-                    src={require('../../assets/images/scan_examples/example_flyer.jpg')}
+                    className='has-shadow'
+                    src={require('../../assets/images/scan_examples/example_flyer.jpeg')}
                     alt="Hero"
                     width={896}
                     height={504} />
