@@ -9,10 +9,11 @@
     "raw-loader": "^4.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dropdown-date": "^2.2.7",
     "react-ga": "^2.7.0",
     "react-loader-spinner": "^5.1.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "react-vis-network-graph": "^3.0.1",
     "sass": "^1.49.7",
     "vis-network": "^9.1.2"
