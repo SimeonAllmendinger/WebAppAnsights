@@ -34,21 +34,21 @@ const FileUploader = ({
     setFlyer,
     ...props
 }) => {
-    const[gndChecked, setGndChecked] = useState(true)
-    const[date, setDate] = useState()
-    
+    const [gndChecked, setGndChecked] = useState(true)
+    const [date, setDate] = useState()
+
     const formatDate = (date) => {
         // formats a JS date to 'yyyy-mm-dd'
         var d = new Date(date),
-          month = "" + (d.getMonth() + 1),
-          day = "" + d.getDate(),
-          year = d.getFullYear();
-      
+            month = "" + (d.getMonth() + 1),
+            day = "" + d.getDate(),
+            year = d.getFullYear();
+
         if (month.length < 2) month = "0" + month;
         if (day.length < 2) day = "0" + day;
-      
+
         return [year, month, day].join("-");
-      };  
+    };
 
 
     const handleDate = (e) => {
@@ -80,13 +80,13 @@ const FileUploader = ({
                 method: 'POST',
                 body: JSON.stringify({
                     gnd: gndChecked
-                  })
+                })
             }).then(resp => {
                 resp.json().then(data => {
                     if (data.success) {
-                      console.log(data);
+                        console.log(data);
                     } else {
-                      console.log('GND UPLOAD FAILED');
+                        console.log('GND UPLOAD FAILED');
                     }
                 });
 
@@ -129,7 +129,7 @@ const FileUploader = ({
                     console.log(data);
                     if (data.success) {
                         setRunning(false);
-                        setNodes(get_nodes(data.nodes,flyer));
+                        setNodes(get_nodes(data.nodes, flyer));
                         setEdges(data.edges);
                         //setOptions(data.options);
                     } else {
@@ -157,12 +157,17 @@ const FileUploader = ({
         bottomDivider && 'has-bottom-divider'
     );
 
+    const tilesClasses = classNames(
+        'tiles-wrap center-content',
+        'push-left'
+    );
+
     return (
         <section
             {...props}
             className={outerClasses}
         >
-            <div className="container-sm">
+            <div className="container">
                 <div className={innerClasses} style={{ "paddingBottom": 0 }}>
                     <h1 className="mt-0 mb-16 reveal-from-bottom">
                         Start your <span className="text-color-primary">Workflow</span>
@@ -178,48 +183,65 @@ const FileUploader = ({
                             <Loader.ThreeDots color="dark" />
                         </div>
                         :
-                        <div>
+                        <div className={tilesClasses}>
+                            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+                                <div className="tiles-item-inner">
 
-                            <div className="form-inline justify-content-center mt-5">
-                                <div className='input-group'>
-                                    <Checkbox onChange={handleGND}>GND</Checkbox>
-                                    <DropdownDate
-                                        startDate={"1800-01-01"}
-                                        endDate={"1945-12-31"}
-                                        selectedDate={date}
-                                        defaultValues={
-                                            {
-                                              year: 'select year',
-                                              month: 'select month',
-                                              day: 'select day'
-                                            }
-                                        }
-                                        onDateChange={(e) => {
-                                            console.log(e);
-                                            setDate(formatDate(e));
-                                            handleDate(formatDate(e))
-                                        }}
-                                    />
+                                    <div className="features-tiles-item-header">
+                                        <Checkbox onChange={handleGND}>GND</Checkbox>
+                                    </div>
+
+                                    <div className="features-tiles-item-header">
+                                        <Checkbox onChange={()=> console.log('Zeitungsarchiv')}>Zeitungsarchiv</Checkbox>
+                                    </div>
+
+                                    <div className="features-tiles-item-header">
+                                        <Checkbox onChange={()=> console.log('Qurator')}>Qurator</Checkbox>
+                                    </div>
+
                                 </div>
                             </div>
 
-                            <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
-                                <div className="form-inline justify-content-center mt-5">
-                                    <div className="input-group">
-                                        <Input type="file" id="image" name="file" placeholder="Drag your File here"
-                                            accept="image/*" className="file-custom" hasIcon='right'
-                                            style={{ height: '52px', width: '900px' }} />
+                            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+                                <div className="tiles-item-inner">
+                                    <div className="features-tiles-item-header">
+                                        <DropdownDate
+                                            startDate={"1800-01-01"}
+                                            endDate={"1945-12-31"}
+                                            selectedDate={date}
+                                            defaultValues={
+                                                {
+                                                    year: 'select year',
+                                                    month: 'select month',
+                                                    day: 'select day'
+                                                }
+                                            }
+                                            onDateChange={(e) => {
+                                                console.log(e);
+                                                setDate(formatDate(e));
+                                                handleDate(formatDate(e))
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="input-group justify-content-center mt-4">
-                                    <Button type="submit" color="primary" wideMobile >SHOW ANZEIGER</Button>
-                                </div>
-                            </form>
-                            
+                            </div>
+
+                            <div className='input-group'>
+                                        <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
+                                            <div className="form-inline justify-content-center mt-5">
+                                                <div className="input-group">
+                                                    <Input type="file" id="image" name="file" placeholder="Drag your File here"
+                                                        accept="image/*" className="file-custom" hasIcon='right'
+                                                        style={{ height: '52px', width: '900px' }} />
+                                                </div>
+                                            </div>
+                                            <div className="input-group justify-content-center mt-4">
+                                                <Button type="submit" color="primary" wideMobile >SHOW ANZEIGER</Button>
+                                            </div>
+                                        </form>
+                                    </div>
                         </div>
                     }
-
-
                 </div>
             </div>
         </section>
