@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Customer testimonials',
-    paragraph: 'Historians already tried our product...'
+    paragraph: 'Coming soon...'
   };
 
   return (
@@ -83,7 +83,7 @@ const Testimonial = ({
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Historian 2</span>
+                  <span className="testimonial-item-name text-color-high">Historian Two</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">Institution</a>
@@ -100,7 +100,7 @@ const Testimonial = ({
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Historian 3</span>
+                  <span className="testimonial-item-name text-color-high">Historian Three</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">Institution</a>

@@ -44,9 +44,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Why VisualAnzeights?',
-    paragraph: 'As participiants of the Coding DaVinci Hackathon, we wanted to connect data sources with \
-    the German Reichsanzeiger contributing its experiencability.'
+    title: 'Why ansights?',
+    paragraph: 'Participating in the Coding DaVinci Hackathon, we wanted to give insights and connect data sources with \
+    the German Reichsanzeiger making its rich treasure of historical references tangible.'
   };
 
   return (
@@ -72,38 +72,16 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    context
                     </h4>
                   <p className="m-0 text-sm">
-                    XXX.
+                    Leaflets, mostly call, response or dispute with the immediate environment obtain its context.
                     </p>
                 </div>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Visualization
-                    </h4>
-                  <p className="m-0 text-sm">
-                    XXX.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -116,10 +94,32 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Open Source
+                    time machine
+                  </h4>
+                  <p className="m-0 text-sm">
+                    Historical voices from the Reichsanzeiger receive timeliness and enter into the discussion.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('../../assets/images/feature-tile-icon-02.svg')}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    representation
                     </h4>
                   <p className="m-0 text-sm">
-                    XXX.
+                  A knowledge graph allows semantic representation of underlying database.
                     </p>
                 </div>
               </div>

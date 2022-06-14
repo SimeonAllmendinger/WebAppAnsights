@@ -13,6 +13,8 @@ import scan7 from '../assets/images/scan_examples/example_scan7.jpeg'
 
 const Workflow = () => {
 
+  const [flyer, setFlyer] = useState(require('../assets/images/scan_examples/example_flyer1.jpeg'));
+
   function get_nodes(nodes_array, flyer_img){
     let img_number
     nodes_array.forEach(function (node, index) {
@@ -40,7 +42,7 @@ const Workflow = () => {
           node['image'] = scan7
           break;
         default:
-          node['image'] = flyer_img
+          node['image'] = flyer
         break;
       }
     });
@@ -49,7 +51,6 @@ const Workflow = () => {
   }
 
   const [running, setRunning] = useState(false);
-  const [flyer, setFlyer] = useState(require('../assets/images/scan_examples/example_flyer1.jpeg'));
   const [nodes, setNodes] = useState(get_nodes(require("../assets/example_net/exampleNet1/nodes.json")["nodes"],flyer));
   const [edges, setEdges] = useState(require("../assets/example_net/exampleNet1/edges.json")["edges"]);
   const [options, setOptions] = useState(require("../assets/example_net/exampleNet1/options.json"));

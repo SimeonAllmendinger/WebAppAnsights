@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Workflow',
-    paragraph: 'You have your flyer ready? Great, we can get started right away.'
+    paragraph: 'You have your leaflet ready? Great, we can get started right away...'
   };
 
   return (
@@ -70,11 +70,11 @@ const FeaturesSplit = ({
                   Worry-free workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Share your flyer with us 
+                  Share your leaflet with us 
                   </h3>
                 <p className="m-0">
-                  You just upload your flyer in one of the supported formats and choose the corresponding year
-                  in the selection window provided for this purpose.
+                  You just upload your flyer in one of the supported formats. In addition, you can choose the corresponding release date
+                  in the selection window.
                   </p>
               </div>
               <div className={
@@ -97,11 +97,11 @@ const FeaturesSplit = ({
                   Worry-free workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Select the databases you want to connect
+                  Link databases to your query
                   </h3>
                 <p className="m-0">
-                  You can connect the "Gemeinsame Normdatei" (GND) to you search to complete the search space 
-                  with related keywords.
+                  With the "Gemeinsame Normdatei" (GND) we included a powerful reference database to complete your search space 
+                  with related keywords. More data connections will follow...
                   </p>
               </div>
               <div className={
@@ -113,8 +113,8 @@ const FeaturesSplit = ({
                 <Image
                   src={require('../../assets/images/GND_Logo.jpg')}
                   alt="Features split 02"
-                  width={528}
-                  height={396} />
+                  width='50px'
+                  height='50px'/>
               </div>
             </div>
 
@@ -127,9 +127,9 @@ const FeaturesSplit = ({
                   Discover a new experience of source scans
                   </h3>
                 <p className="m-0">
-                  Our net graph shows the relations between all relevant articles in accordance to your query. 
-                  The distance to your flyer and among articles in the Reichsanzeiger can give indications of a 
-                  thematic dependency to enable a targeted search.
+                  Our net graph shows the relations between all relevant articles of the Reichsanzeiger in accordance to your query. 
+                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications of a 
+                  thematic dependency to simplify your search.
                   </p>
               </div>
               <div className={
