@@ -5,6 +5,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import SectionHeader from './partials/SectionHeader';
+import * as Loader from 'react-loader-spinner';
 
 const propTypes = {
     ...SectionProps.types
@@ -82,7 +83,8 @@ const KeywordGraph = ({
     }, [container, nodes, edges, options]);
 
     const update_example = (i) => {
-        console.log(i);
+        setRunning(true)
+        console.log('Example: ' + i);
         setFlyer(require('../../assets/images/scan_examples/example_flyer' + i + '.jpeg'))
         setNodes(get_nodes(require("../../assets/example_net/exampleNet" +
             i.toString() + "/nodes.json")["nodes"], flyer));
@@ -90,6 +92,7 @@ const KeywordGraph = ({
             i.toString() + "/edges.json")["edges"]);
         setOptions(require("../../assets/example_net/exampleNet" +
             i.toString() + "/options.json"));
+        setRunning(false)
     }
 
     const tilesClasses = classNames(
@@ -111,7 +114,11 @@ const KeywordGraph = ({
                     <div ref={container} style={{ height: '800px', width: '100%' }} />
                     <SectionHeader data={sectionHeader} className="center-content" style={{ "paddingTop": "50px", alignItems: 'center' }} data-reveal-delay="200"/>
 
-                    {running ? console.log('No Example selection possible, since worrkflow is running')
+                    {running ?
+                        <div>
+                            console.log('No Example selection possible, since worrkflow is running')
+                            <Loader.ThreeDots color="dark" />
+                        </div>
                         :
                         <div className={tilesClasses}>
                             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
@@ -123,7 +130,8 @@ const KeywordGraph = ({
                                                 src={require('../../assets/images/scan_examples/example_flyer1.jpeg')}
                                                 alt="Example1"
                                                 width={150}
-                                                height={150} />
+                                                height={150}
+                                                max-height="100%" />
                                         </div>
                                     </div>
                                     <div className="features-tiles-item-content">
@@ -145,6 +153,7 @@ const KeywordGraph = ({
                                                 alt="Example2"
                                                 width={150}
                                                 height={150}
+                                                max-height="100%"
                                             />
                                         </div>
                                     </div>
@@ -167,6 +176,7 @@ const KeywordGraph = ({
                                                 alt="Example3"
                                                 width={150}
                                                 height={150}
+                                                max-height="100%"
                                             /></div>
                                     </div>
                                     <div className="features-tiles-item-content">

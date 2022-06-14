@@ -6,7 +6,6 @@ import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
 import { DropdownDate} from "react-dropdown-date";
-import Image from '../elements/Image';
 
 const propTypes = {
     ...SectionProps.types
