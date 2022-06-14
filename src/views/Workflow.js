@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import FileUploader from '../components/sections/FileUploader';
 import KeywordGraph from '../components/sections/KeywordGraph';
 
-import flyer from '../assets/images/scan_examples/example_flyer.jpeg'
 import scan1 from '../assets/images/scan_examples/example_scan1.jpeg'
 import scan2 from '../assets/images/scan_examples/example_scan2.jpeg'
 import scan3 from '../assets/images/scan_examples/example_scan3.jpeg'
@@ -14,15 +13,15 @@ import scan7 from '../assets/images/scan_examples/example_scan7.jpeg'
 
 const Workflow = () => {
 
-  function get_nodes(nodes_array){
+  function get_nodes(nodes_array, flyer_img){
     let img_number
     nodes_array.forEach(function (node, index) {
       img_number=node['image'].slice(-6).substring(0,1)
       switch (parseInt(img_number)) {
-        case parseInt(1):
+        case 1:
           node['image'] = scan1
           break;
-        case parseInt(2):
+        case 2:
           node['image'] = scan2
           break;
         case 3:
@@ -41,8 +40,8 @@ const Workflow = () => {
           node['image'] = scan7
           break;
         default:
-          node['image'] = flyer
-          break;
+          node['image'] = flyer_img
+        break;
       }
     });
     
@@ -50,9 +49,11 @@ const Workflow = () => {
   }
 
   const [running, setRunning] = useState(false);
-  const [nodes, setNodes] = useState(get_nodes(require("../assets/example_net/exampleNet1/nodes.json")["nodes"]));
+  const [flyer, setFlyer] = useState(require('../assets/images/scan_examples/example_flyer1.jpeg'));
+  const [nodes, setNodes] = useState(get_nodes(require("../assets/example_net/exampleNet1/nodes.json")["nodes"],flyer));
   const [edges, setEdges] = useState(require("../assets/example_net/exampleNet1/edges.json")["edges"]);
   const [options, setOptions] = useState(require("../assets/example_net/exampleNet1/options.json"));
+  
 
   return (
     <>
@@ -64,6 +65,8 @@ const Workflow = () => {
         setEdges={setEdges}
         setOptions={setOptions}
         get_nodes={get_nodes}
+        flyer={flyer}
+        setFlyer={setFlyer}
       />
       <KeywordGraph
         nodes={nodes}
@@ -72,6 +75,11 @@ const Workflow = () => {
         setEdges={setEdges}
         options={options}
         setOptions={setOptions}
+        running={running}
+        setRunning={setRunning}
+        get_nodes={get_nodes}
+        flyer={flyer}
+        setFlyer={setFlyer}
         />
     </>
   );

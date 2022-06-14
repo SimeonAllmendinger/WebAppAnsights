@@ -6,6 +6,7 @@ import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
 import { DropdownDate} from "react-dropdown-date";
+import Image from '../elements/Image';
 
 const propTypes = {
     ...SectionProps.types
@@ -30,10 +31,12 @@ const FileUploader = ({
     setEdges,
     setOptions,
     get_nodes,
+    flyer,
+    setFlyer,
     ...props
 }) => {
     const[gndChecked, setGndChecked] = useState(true)
-    const[date, setDate] = useState("1945-01-01")
+    const[date, setDate] = useState()
     
     const formatDate = (date) => {
         // formats a JS date to 'yyyy-mm-dd'
@@ -96,6 +99,7 @@ const FileUploader = ({
     const handleSubmit = (e) => {
         e.preventDefault()
         const formData = new FormData(e.target);
+        setFlyer(URL.createObjectURL(formData.get('file')));
 
         const upload = async () => {
             await fetch('/api/uploadImage', {
@@ -126,7 +130,7 @@ const FileUploader = ({
                     console.log(data);
                     if (data.success) {
                         setRunning(false);
-                        setNodes(get_nodes(data.nodes));
+                        setNodes(get_nodes(data.nodes,flyer));
                         setEdges(data.edges);
                         //setOptions(data.options);
                     } else {
@@ -184,6 +188,13 @@ const FileUploader = ({
                                         startDate={"1800-01-01"}
                                         endDate={"1945-12-31"}
                                         selectedDate={date}
+                                        defaultValues={
+                                            {
+                                              year: 'select year',
+                                              month: 'select month',
+                                              day: 'select day'
+                                            }
+                                        }
                                         onDateChange={(e) => {
                                             console.log(e);
                                             setDate(formatDate(e));
@@ -202,7 +213,7 @@ const FileUploader = ({
                                     </div>
                                 </div>
                                 <div className="input-group justify-content-center mt-4">
-                                    <Button type="submit" color="dark" wideMobile >SHOW ANZEIGER</Button>
+                                    <Button type="submit" color="primary" wideMobile >SHOW ANZEIGER</Button>
                                 </div>
                             </form>
                             
