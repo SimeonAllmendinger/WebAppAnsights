@@ -174,7 +174,7 @@ const FileUploader = ({
                     </h1>
                     <div className="container-xs">
                         <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
-                            Upload a flyer of your choice.
+                            Upload a leaflet of your choice.
                         </p>
                     </div>
 
