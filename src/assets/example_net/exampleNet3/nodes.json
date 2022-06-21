@@ -1,5 +1,83 @@
 {
     "nodes": [
-       
+        {
+            "size": 60,
+            "title": "Flugblatt",
+            "fixed": true,
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_flyer.jpg",
+            "id": "KEY",
+            "label": "Flugblatt",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1897-01-02--1903-02-28---001-045-044-9452-0328.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1897-01-02--1903-02-28---001-045/044-9452/0328.hocr",
+            "id": 0,
+            "label": "0328.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1897-01-02--1903-02-28---001-045-044-9452-0028.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1897-01-02--1903-02-28---001-045/044-9452/0028.hocr",
+            "id": 1,
+            "label": "0028.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1909-06-01--1916-08-31---090-154-149-9557-0316.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/149-9557/0316.hocr",
+            "id": 2,
+            "label": "0316.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1909-06-01--1916-08-31---090-154-145-9553-0157.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/145-9553/0157.hocr",
+            "id": 3,
+            "label": "0157.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1930-11-01--1932-12-31---082-093-083-9043-0369.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/083-9043/0369.hocr",
+            "id": 4,
+            "label": "0369.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1909-06-01--1916-08-31---090-154-143-9551-0403.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/143-9551/0403.hocr",
+            "id": 5,
+            "label": "0403.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1919-01-02--1921-12-31---001-021-005-8965-0552.hocr\n Keywords: \nVerleumdern\nnnd",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(0, 0, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1919-01-02--1921-12-31---001-021/005-8965/0552.hocr",
+            "id": 6,
+            "label": "0552.hocr",
+            "shape": "image"
+        }
     ]
 }

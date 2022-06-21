@@ -1,3 +1,593 @@
 {
-    "nodes": []
+    "nodes": [
+        {
+            "size": 60,
+            "title": "Flugblatt",
+            "fixed": true,
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_flyer.jpg",
+            "id": "KEY",
+            "label": "Flugblatt",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-133-9541-0356.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/133-9541/0356.hocr",
+            "id": 0,
+            "label": "0356.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1919-01-02--1921-12-31---001-021-021-8981-0535.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1919-01-02--1921-12-31---001-021/021-8981/0535.hocr",
+            "id": 1,
+            "label": "0535.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1922-01-02--1923-12-31---022-036-033-8993-0076.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1922-01-02--1923-12-31---022-036/033-8993/0076.hocr",
+            "id": 2,
+            "label": "0076.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-145-9553-0011.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/145-9553/0011.hocr",
+            "id": 3,
+            "label": "0011.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1924-01-02--1925-06-30---037-046-046-9006-0358.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1924-01-02--1925-06-30---037-046/046-9006/0358.hocr",
+            "id": 4,
+            "label": "0358.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-013-8454-0091.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/013-8454/0091.hocr",
+            "id": 5,
+            "label": "0091.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1916-01-09--1918-12-31---155-167-162-9570-0383.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1916-01-09--1918-12-31---155-167/162-9570/0383.hocr",
+            "id": 6,
+            "label": "0383.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-141-9549-0641.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/141-9549/0641.hocr",
+            "id": 7,
+            "label": "0641.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-135-9543-0254.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/135-9543/0254.hocr",
+            "id": 8,
+            "label": "0254.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1903-03-02--1909-05-29---046-089-070-9478-0108.hocr\n Keywords: \nLund",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(254, 76, 15, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1903-03-02--1909-05-29---046-089/070-9478/0108.hocr",
+            "id": 9,
+            "label": "0108.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1909-06-01--1916-08-31---090-154-138-9546-0424.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/138-9546/0424.hocr",
+            "id": 10,
+            "label": "0424.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1903-03-02--1909-05-29---046-089-078-9486-0184.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1903-03-02--1909-05-29---046-089/078-9486/0184.hocr",
+            "id": 11,
+            "label": "0184.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1933-01-02--1940-03-30---001-032-005-8446-0651.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/005-8446/0651.hocr",
+            "id": 12,
+            "label": "0651.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1930-11-01--1932-12-31---082-093-090-9050-0164.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/090-9050/0164.hocr",
+            "id": 13,
+            "label": "0164.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1933-01-02--1940-03-30---001-032-003-8444-0477.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/003-8444/0477.hocr",
+            "id": 14,
+            "label": "0477.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1930-11-01--1932-12-31---082-093-083-9043-0449.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/083-9043/0449.hocr",
+            "id": 15,
+            "label": "0449.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1933-01-02--1940-03-30---001-032-015-8456-0223.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/015-8456/0223.hocr",
+            "id": 16,
+            "label": "0223.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1933-01-02--1940-03-30---001-032-018-8459-0511.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/018-8459/0511.hocr",
+            "id": 17,
+            "label": "0511.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1933-01-02--1940-03-30---001-032-019-8460-0277.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/019-8460/0277.hocr",
+            "id": 18,
+            "label": "0277.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 30,
+            "title": "1930-11-01--1932-12-31---082-093-091-9051-0310.hocr\n Keywords: \nLund\nStadtteils\nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(164, 51, 165, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/091-9051/0310.hocr",
+            "id": 19,
+            "label": "0310.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1871-04-05--1875-04-30---001-018-007-7926-0005.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1871-04-05--1875-04-30---001-018/007-7926/0005.hocr",
+            "id": 20,
+            "label": "0005.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1919-01-02--1921-12-31---001-021-015-8975-0106.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1919-01-02--1921-12-31---001-021/015-8975/0106.hocr",
+            "id": 21,
+            "label": "0106.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1903-03-02--1909-05-29---046-089-087-9495-0339.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1903-03-02--1909-05-29---046-089/087-9495/0339.hocr",
+            "id": 22,
+            "label": "0339.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1930-11-01--1932-12-31---082-093-087-9047-0336.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/087-9047/0336.hocr",
+            "id": 23,
+            "label": "0336.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1924-01-02--1925-06-30---037-046-043-9003-0123.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(35, 255, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1924-01-02--1925-06-30---037-046/043-9003/0123.hocr",
+            "id": 24,
+            "label": "0123.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1919-01-02--1921-12-31---001-021-015-8975-0697.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1919-01-02--1921-12-31---001-021/015-8975/0697.hocr",
+            "id": 25,
+            "label": "0697.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-135-9543-0432.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/135-9543/0432.hocr",
+            "id": 26,
+            "label": "0432.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-107-9515-0392.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/107-9515/0392.hocr",
+            "id": 27,
+            "label": "0392.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1883-10-01--1885-12-31---057-070-066-7985-0006.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1883-10-01--1885-12-31---057-070/066-7985/0006.hocr",
+            "id": 28,
+            "label": "0006.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1930-11-01--1932-12-31---082-093-093-9053-0180.hocr\n Keywords: \nwerben",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(35, 254, 0, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/093-9053/0180.hocr",
+            "id": 29,
+            "label": "0180.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1919-01-02--1921-12-31---001-021-009-8969-0177.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1919-01-02--1921-12-31---001-021/009-8969/0177.hocr",
+            "id": 30,
+            "label": "0177.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1933-01-02--1940-03-30---001-032-004-8445-0502.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/004-8445/0502.hocr",
+            "id": 31,
+            "label": "0502.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1916-01-09--1918-12-31---155-167-156-9564-0142.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1916-01-09--1918-12-31---155-167/156-9564/0142.hocr",
+            "id": 32,
+            "label": "0142.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1930-11-01--1932-12-31---082-093-087-9047-0421.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/087-9047/0421.hocr",
+            "id": 33,
+            "label": "0421.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1897-01-02--1903-02-28---001-045-045-9453-0298.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1897-01-02--1903-02-28---001-045/045-9453/0298.hocr",
+            "id": 34,
+            "label": "0298.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1916-01-09--1918-12-31---155-167-156-9564-0421.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1916-01-09--1918-12-31---155-167/156-9564/0421.hocr",
+            "id": 35,
+            "label": "0421.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1933-01-02--1940-03-30---001-032-006-8447-0791.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/006-8447/0791.hocr",
+            "id": 36,
+            "label": "0791.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 20,
+            "title": "1933-01-02--1940-03-30---001-032-018-8459-0134.hocr\n Keywords: \nLund\nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(140, 1, 76, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/018-8459/0134.hocr",
+            "id": 37,
+            "label": "0134.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1928-03-01--1930-10-31---066-081-077-9037-0359.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1928-03-01--1930-10-31---066-081/077-9037/0359.hocr",
+            "id": 38,
+            "label": "0359.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-001-8442-0078.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/001-8442/0078.hocr",
+            "id": 39,
+            "label": "0078.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1930-11-01--1932-12-31---082-093-093-9053-0460.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/093-9053/0460.hocr",
+            "id": 40,
+            "label": "0460.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1928-03-01--1930-10-31---066-081-077-9037-0518.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1928-03-01--1930-10-31---066-081/077-9037/0518.hocr",
+            "id": 41,
+            "label": "0518.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-020-8461-0247.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/020-8461/0247.hocr",
+            "id": 42,
+            "label": "0247.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-012-8453-0593.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/012-8453/0593.hocr",
+            "id": 43,
+            "label": "0593.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-021-8462-0180.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/021-8462/0180.hocr",
+            "id": 44,
+            "label": "0180.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-006-8447-0066.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/006-8447/0066.hocr",
+            "id": 45,
+            "label": "0066.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-011-8452-0436.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/011-8452/0436.hocr",
+            "id": 46,
+            "label": "0436.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1930-11-01--1932-12-31---082-093-085-9045-0057.hocr\n Keywords: \nStadtteils",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(0, 0, 125, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1930-11-01--1932-12-31---082-093/085-9045/0057.hocr",
+            "id": 47,
+            "label": "0057.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1897-01-02--1903-02-28---001-045-010-9417-0106.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1897-01-02--1903-02-28---001-045/010-9417/0106.hocr",
+            "id": 48,
+            "label": "0106.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1903-03-02--1909-05-29---046-089-062-9470-0425.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1903-03-02--1909-05-29---046-089/062-9470/0425.hocr",
+            "id": 49,
+            "label": "0425.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-127-9533-0659.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/127-9533/0659.hocr",
+            "id": 50,
+            "label": "0659.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1909-06-01--1916-08-31---090-154-153-9561-0033.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1909-06-01--1916-08-31---090-154/153-9561/0033.hocr",
+            "id": 51,
+            "label": "0033.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1916-01-09--1918-12-31---155-167-161-9569-0020.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1916-01-09--1918-12-31---155-167/161-9569/0020.hocr",
+            "id": 52,
+            "label": "0020.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1903-03-02--1909-05-29---046-089-081-9489-0261.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1903-03-02--1909-05-29---046-089/081-9489/0261.hocr",
+            "id": 53,
+            "label": "0261.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1933-01-02--1940-03-30---001-032-013-8454-0669.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1933-01-02--1940-03-30---001-032/013-8454/0669.hocr",
+            "id": 54,
+            "label": "0669.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1897-01-02--1903-02-28---001-045-004-9411-0120.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1897-01-02--1903-02-28---001-045/004-9411/0120.hocr",
+            "id": 55,
+            "label": "0120.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1922-01-02--1923-12-31---022-036-027-8987-0429.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "color": "rgba(153, 214, 255, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1922-01-02--1923-12-31---022-036/027-8987/0429.hocr",
+            "id": 56,
+            "label": "0429.hocr",
+            "shape": "image"
+        },
+        {
+            "size": 10,
+            "title": "1916-01-09--1918-12-31---155-167-161-9569-0015.hocr\n Keywords: \nStuttgart",
+            "image": "file:///Users/simeon/Documents/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "color": "rgba(153, 214, 254, 0.7)",
+            "url": "https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/ocr/film/tesseract-5.0.0-20211201/1916-01-09--1918-12-31---155-167/161-9569/0015.hocr",
+            "id": 57,
+            "label": "0015.hocr",
+            "shape": "image"
+        }
+    ]
 }

@@ -3,19 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@dhaiwat10/react-link-preview": "^1.14.0",
     "classnames": "^2.2.6",
     "html-to-react": "^1.4.8",
+    "install": "^0.13.0",
     "lodash": "^4.17.15",
     "raw-loader": "^4.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-dropdown-date": "^2.2.7",
     "react-ga": "^2.7.0",
+    "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.1.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.1",
     "react-vis-network-graph": "^3.0.1",
-    "sass": "^1.49.7",
     "vis-network": "^9.1.2"
   },
   "scripts": {
@@ -40,5 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
 }

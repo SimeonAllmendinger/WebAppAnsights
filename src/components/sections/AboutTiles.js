@@ -62,7 +62,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                  <Image
+                    <Image
                       src={require('../../assets/images/About/Emil.jpg')}
                       alt="Emil"
                       height={60}
@@ -72,10 +72,14 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Emil
-                    </h4>
-                  <p className="m-0 text-sm">
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    ugxal@student.kit.edu
+                  </p>
+                  <p className="m-32 text-sm">
                     Data Analyst
-                    </p>
+                  </p>
+
                 </div>
               </div>
             </div>
@@ -94,10 +98,14 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Joel Oswald
-                    </h4>
-                  <p className="m-0 text-sm">
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    uvrpn@student.kit.edu
+                  </p>
+                  <p className="m-32 text-sm">
                     Software Engineer
-                    </p>
+                  </p>
+
                 </div>
               </div>
             </div>
@@ -106,7 +114,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                  <Image
+                    <Image
                       src={require('../../assets/images/About/Simeon.jpg')}
                       alt="Simeon"
                       height={60}
@@ -114,16 +122,20 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h4 className="mt-0 mb-8 ">
                     Simeon Allmendinger
-                    </h4>
-                  <p className="m-0 text-sm">
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    uerib@student.kit.edu
+                  </p>
+                  <p className="m-32 text-sm">
                     Software Engineer
-                    </p>
+                  </p>
+
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

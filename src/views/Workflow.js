@@ -42,7 +42,7 @@ const Workflow = () => {
           node['image'] = scan7
           break;
         default:
-          node['image'] = flyer
+          node['image'] = flyer_img
         break;
       }
     });

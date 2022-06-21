@@ -3,6 +3,7 @@ import React, { useEffect, useState }  from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
+import KnowledgeGraph from '../components/sections/KnowledgeGraph';
 import Testimonial from '../components/sections/Testimonial';
 //import Cta from '../components/sections/Cta';
 /* <Cta split />**/
@@ -24,6 +25,7 @@ const Home = () => {
       <Hero className="illustration-section-01" currentTime={currentTime}/>
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill />
+      <KnowledgeGraph topDivider />
       <Testimonial topDivider />
        
     </>

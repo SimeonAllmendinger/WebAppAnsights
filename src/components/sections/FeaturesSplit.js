@@ -128,7 +128,7 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0">
                   Our net graph shows the relations between all relevant articles of the Reichsanzeiger in accordance to your query. 
-                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications of a 
+                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications on a 
                   thematic dependency to simplify your search.
                   </p>
               </div>

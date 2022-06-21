@@ -1,5 +1,340 @@
 {
     "edges": [
-        
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 1,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 2,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 2,
+            "to": 1
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 3,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 3,
+            "to": 1
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 3,
+            "to": 2
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 4,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 4,
+            "to": 1
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 4,
+            "to": 2
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 4,
+            "to": 3
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 5,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 5,
+            "to": 1
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 5,
+            "to": 2
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 5,
+            "to": 3
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 5,
+            "to": 4
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 0
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 1
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 2
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 3
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 4
+        },
+        {
+            "smooth": {
+                "enabled": true,
+                "type": "continuos",
+                "roundness": 0.4
+            },
+            "title": "Verleumdern,\nnnd",
+            "weight": 1.0,
+            "value": 2.0,
+            "length": 1,
+            "from": 6,
+            "to": 5
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 0,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 1,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 2,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 3,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 4,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 5,
+            "to": "KEY"
+        },
+        {
+            "weight": 2,
+            "value": 2,
+            "smooth": false,
+            "title": "Verleumdern,nnd",
+            "color": null,
+            "from": 6,
+            "to": "KEY"
+        }
     ]
 }

@@ -109,7 +109,7 @@ const FileUploader = ({
                     console.log(data);
                     if (data.success) {
                         setRunning(true);
-                        handleWorkflow();
+                        handleWorkflow(URL.createObjectURL(formData.get('file')));
                     } else {
                         console.log('FILE UPLOAD FAILED');
                     }
@@ -120,7 +120,7 @@ const FileUploader = ({
         upload();
     }
 
-    const handleWorkflow = (n) => {
+    const handleWorkflow = (current_flyer) => {
         const startWorkflow = async () => {
             await fetch('/api/startWorkflow', {
                 method: 'POST'
@@ -129,7 +129,7 @@ const FileUploader = ({
                     console.log(data);
                     if (data.success) {
                         setRunning(false);
-                        setNodes(get_nodes(data.nodes, flyer));
+                        setNodes(get_nodes(data.nodes, current_flyer));
                         setEdges(data.edges);
                         //setOptions(data.options);
                     } else {
