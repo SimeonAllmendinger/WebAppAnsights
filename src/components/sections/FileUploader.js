@@ -1,11 +1,11 @@
-import React, {useState}from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
-import { DropdownDate} from "react-dropdown-date";
+import { DropdownDate } from "react-dropdown-date";
 
 const propTypes = {
     ...SectionProps.types
@@ -174,7 +174,7 @@ const FileUploader = ({
                     </h1>
                     <div className="container-xs">
                         <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
-                            Upload a leaflet of your choice.
+                            Upload a leaflet of your choice or select an example from below.
                         </p>
                     </div>
 
@@ -192,11 +192,11 @@ const FileUploader = ({
                                     </div>
 
                                     <div className="features-tiles-item-header">
-                                        <Checkbox onChange={()=> console.log('Zeitungsarchiv')}>Zeitungsarchiv</Checkbox>
+                                        <Checkbox onChange={() => console.log('Zeitungsarchiv')}>Zeitungsarchiv</Checkbox>
                                     </div>
 
                                     <div className="features-tiles-item-header">
-                                        <Checkbox onChange={()=> console.log('Qurator')}>Qurator</Checkbox>
+                                        <Checkbox onChange={() => console.log('Qurator')}>Qurator</Checkbox>
                                     </div>
 
                                 </div>
@@ -227,19 +227,19 @@ const FileUploader = ({
                             </div>
 
                             <div className='input-group'>
-                                        <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
-                                            <div className="form-inline justify-content-center mt-5">
-                                                <div className="input-group">
-                                                    <Input type="file" id="image" name="file" placeholder="Drag your File here"
-                                                        accept="image/*" className="file-custom" hasIcon='right'
-                                                        style={{ height: '52px', width: '900px' }} />
-                                                </div>
-                                            </div>
-                                            <div className="input-group justify-content-center mt-4">
-                                                <Button type="submit" color="primary" wideMobile >SHOW ANZEIGER</Button>
-                                            </div>
-                                        </form>
+                                <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
+                                    <div className="form-inline justify-content-center mt-5">
+                                        <div className="input-group">
+                                            <Input type="file" id="image" name="file" placeholder="Drag your File here"
+                                                accept="image/*" className="file-custom" hasIcon='right'
+                                                style={{ height: '52px', width: '900px' }} />
+                                        </div>
                                     </div>
+                                    <div className="input-group justify-content-center mt-4">
+                                        <Button type="submit" color="primary" wideMobile >GENERATE GRAPH</Button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     }
                 </div>
