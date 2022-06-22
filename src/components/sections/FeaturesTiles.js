@@ -48,8 +48,8 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Why ansights?',
-    paragraph: 'Participating in the Coding DaVinci Hackathon, we wanted to give insights and connect data sources with \
-    the German Reichsanzeiger making its rich treasure of historical references tangible.'
+    paragraph: 'Participating in the Coding DaVinci Hackathon, we wanted to give insights and connect data sources with' +
+      'the German Reichsanzeiger making its rich treasure of historical references tangible.'
   };
 
   return (
@@ -76,10 +76,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     context
-                    </h4>
+                  </h4>
                   <p className="m-0 text-sm">
                     Leaflets, mostly call, response or dispute with the immediate environment obtain its context.
-                    </p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -120,14 +120,14 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     representation
-                    </h4>
+                  </h4>
                   <p className="m-0 text-sm">
-                  A knowledge graph allows semantic representation of underlying database.
-                    </p>
+                    A knowledge graph allows semantic representation of underlying database.
+                  </p>
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

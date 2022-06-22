@@ -8,7 +8,6 @@ import github_img from '../../assets/images/Octicons-mark-github.svg';
 import knowGraph_img from '../../assets/images/knowledgeGraphIcon.png';
 
 
-
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -128,7 +127,7 @@ const KnowledgeGraph = ({
                       alt="github"
                       height={40}
                       width={200} />
-                      
+
                   </div>
                   <div className="features-tiles-item-header">
                     <h4 className="mt-0 mb-8 center-content text-color-high">
