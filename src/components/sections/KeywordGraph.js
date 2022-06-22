@@ -126,13 +126,14 @@ const KeywordGraph = ({
                                     <div className="features-tiles-item-header">
                                         <div className="features-tiles-item-image mb-16">
                                             <Image
+                                                onClick={() => { update_example(1) }}
                                                 className='has-shadow'
                                                 src={require('../../assets/images/scan_examples/example_flyer1.jpeg')}
                                                 alt="Example1"
                                                 width={150}
                                                 height={150}
                                                 max-height="100%" />
-                                        </div>
+                                            </div>
                                     </div>
                                     <div className="features-tiles-item-content">
                                         <h4 className="mt-0 mb-8">
@@ -186,8 +187,7 @@ const KeywordGraph = ({
                                     </div>
                                 </div>
                             </div>
-
-
+                            <p></p>
                         </div>}
                 </div>
                 <div

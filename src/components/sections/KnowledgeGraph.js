@@ -29,6 +29,8 @@ const KnowledgeGraph = ({
   ...props
 }) => {
 
+  const link_SHMARQL=<a href='https://github.com/epoz/shmarql'>SHMARQL tool</a>;
+
   const outerClasses = classNames(
     'testimonial section',
     topOuterDivider && 'has-top-divider',
@@ -50,7 +52,7 @@ const KnowledgeGraph = ({
   );
 
   const sectionHeader = {
-    title: 'Discover the leaflet database',
+    title: 'Discover the leaflet database via Knowledge Graphs',
     paragraph: 'The Knowledge Graph represents all data of the “Flugblätter” dataset \
     along with their metadata provided by “Haus der Geschichte Baden-Württemberg” and \
     the keywords extracted from the leaflets. \
@@ -60,7 +62,7 @@ const KnowledgeGraph = ({
     certainty of dating information and the status of the original documents. \
     Many of the extracted entities were connected to Wikidata and GND, which enables \
     federated querying. It is now possible to browse and explore the dataset using a public \
-    SPARQL endpoint as well as the SHMARQL tool.'
+    SPARQL endpoint as well as the'+ <a href='https://github.com/epoz/shmarql'>SHMARQL tool</a>+'.'
   };
 
   return (
@@ -88,7 +90,7 @@ const KnowledgeGraph = ({
                   </div>
                   <div className="features-tiles-item-header mb-16 center-content" >
                     <h4 className="mt-0 mb-8 center-content text-color-high">
-                      Connect to sparql endpoint
+                      query to sparql endpoint
                     </h4>
                   </div>
                 </a>
@@ -109,7 +111,7 @@ const KnowledgeGraph = ({
                   </div>
                   <div className="features-tiles-item-header mb-16 " >
                     <h4 className="mt-0 mb-8 center-content text-color-high">
-                      Ontology Documentation
+                      ontology documentation
                     </h4>
                   </div>
                 </a>
@@ -130,7 +132,7 @@ const KnowledgeGraph = ({
                   </div>
                   <div className="features-tiles-item-header">
                     <h4 className="mt-0 mb-8 center-content text-color-high">
-                      View on Github
+                      view on github
                     </h4>
                   </div>
                 </a>

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@dhaiwat10/react-link-preview": "^1.14.0",
+    "@material-ui/core": "^4.12.4",
     "classnames": "^2.2.6",
     "html-to-react": "^1.4.8",
     "install": "^0.13.0",
@@ -15,6 +16,7 @@
     "react-ga": "^2.7.0",
     "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.1.5",
+    "react-range": "^1.8.13",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.1",
     "react-vis-network-graph": "^3.0.1",

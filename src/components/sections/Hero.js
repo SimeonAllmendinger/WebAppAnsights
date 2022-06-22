@@ -59,14 +59,20 @@ const Hero = ({
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Link to="/workflow">
-                    <Button tag="a" color="primary" wideMobile>
-                      Get started
-                    </Button>
-                  </Link>
+
                   <Button tag="a" color="dark" wideMobile href="https://github.com/joelosw/VisualAnzeights.git">
-                    View on Github
+                    view on github
                   </Button>
+                  <Button tag="a" color="primary" wideMobile>
+                    <Link to="/workflow">
+                      get started
+                    </Link>
+                  </Button>
+
+                  <Button tag="a" color="dark" wideMobile href='https://flyer-explorer.fiz-karlsruhe.de/ontology'>
+                    knowledge graph
+                  </Button>
+
                 </ButtonGroup>
               </div>
 

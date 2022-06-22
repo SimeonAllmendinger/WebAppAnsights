@@ -113,8 +113,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('../../assets/images/GND_Logo.jpg')}
                   alt="Features split 02"
-                  width='50px'
-                  height='50px'/>
+                  style={{width:'70%'}}/>
               </div>
             </div>
 

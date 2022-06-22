@@ -54,7 +54,7 @@ const DaVinciHackathon = ({
   );
 
   const sectionHeader = {
-    title: '{COD1NG DA V1NC1}',
+    title: 'Part of {COD1NG DA V1NC1}',
     paragraph: 'Culture-Hackathon Baden-Württemberg 2022'
   };
 
@@ -68,9 +68,78 @@ const DaVinciHackathon = ({
       {...props}
       className={outerClasses}
     >
+      <div className='features-tiles section'>
+        <div className="container">
+          <div className='features-tiles-inner section-inner pt-0'>
+            <SectionHeader data={sectionHeader} className="center-content" />
+
+            <div className={tilesClasses}>
+
+              <div className="tiles-item reveal-from-bottom">
+                <div className="tiles-item-inner">
+
+                  <a href='https://codingdavinci.de/daten/deutscher-reichsanzeiger-und-preussischer-staatsanzeiger'>
+                    <div className="features-tiles-item-header">
+                      <h4 className="mt-0 mb-8">
+                        historic newspaper
+                      </h4>
+
+                      <div className="features-tiles-item-image mb-16">
+                        <Image
+                          src={anzeiger_img}
+                          alt="Features tile icon 01"
+                          width={128}
+                          height={128} />
+                      </div>
+
+                    </div>
+                  </a>
+
+                  <div className="features-tiles-item-content">
+                    <p className="m-0 text-sm">
+                      German 'Reichsanzeiger' and 'Preußischer Staatsanzeiger'.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="tiles-item reveal-from-bottom">
+                <div className="tiles-item-inner">
+
+                  <a href='https://codingdavinci.de/daten/flug-und-extrablaetter-aus-der-revolutionszeit-1918-bis-1920'>
+                    <div className="features-tiles-item-header">
+                      <h4 className="mt-0 mb-8">
+                        leaflets
+                      </h4>
+
+                      <div className="features-tiles-item-image mb-16">
+                        <Image
+                          src={leaflet_img}
+                          alt="Features tile icon 01"
+                          width={128}
+                          height={128} />
+                      </div>
+
+                    </div>
+                  </a>
+
+                  <div className="features-tiles-item-content">
+                    <p className="m-0 text-sm">
+                      Leaflets and extra sheets from the revolutionary period 1918 to 1920.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container-sm">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="500">
             <div
               data-video="https://www.youtube.com/embed/JPm0_xCM1kQ?autplay=1"
@@ -92,74 +161,6 @@ const DaVinciHackathon = ({
             handleClose={closeModal}
             video="https://www.youtube.com/embed/JPm0_xCM1kQ?autplay=1"
             videoTag="iframe" />
-        </div>
-      </div>
-
-      <div className='features-tiles section'>
-        <div className="container">
-          <div className='features-tiles-inner section-inner pt-0'>
-            <div className={tilesClasses}>
-
-              <div className="tiles-item reveal-from-bottom">
-                <div className="tiles-item-inner">
-                
-                <a href='https://codingdavinci.de/daten/deutscher-reichsanzeiger-und-preussischer-staatsanzeiger'>
-                  <div className="features-tiles-item-header">
-                  <h4 className="mt-0 mb-8">
-                    historic newspaper
-                    </h4>
-                   
-                    <div className="features-tiles-item-image mb-16">
-                      <Image
-                        src={anzeiger_img}
-                        alt="Features tile icon 01"
-                        width={128}
-                        height={128} />
-                    </div>
-
-                  </div>
-                  </a>
-
-                  <div className="features-tiles-item-content">
-                    <p className="m-0 text-sm">
-                    German 'Reichsanzeiger' and 'Preußischer Staatsanzeiger'.
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-
-              <div className="tiles-item reveal-from-bottom">
-                <div className="tiles-item-inner">
-                
-                <a href='https://codingdavinci.de/daten/flug-und-extrablaetter-aus-der-revolutionszeit-1918-bis-1920'>
-                  <div className="features-tiles-item-header">
-                  <h4 className="mt-0 mb-8">
-                    leaflets
-                    </h4>
-                   
-                    <div className="features-tiles-item-image mb-16">
-                      <Image
-                        src={leaflet_img}
-                        alt="Features tile icon 01"
-                        width={128}
-                        height={128} />
-                    </div>
-
-                  </div>
-                  </a>
-
-                  <div className="features-tiles-item-content">
-                    <p className="m-0 text-sm">
-                    Leaflets and extra sheets from the revolutionary period 1918 to 1920.
-                    </p>
-                  </div>
-                  
-                </div>
-              </div>
-
-            </div>
-          </div>
         </div>
       </div>
 

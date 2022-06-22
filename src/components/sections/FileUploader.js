@@ -5,7 +5,10 @@ import Input from '../elements/Input';
 import Button from '../elements/Button';
 import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
-import { DropdownDate} from "react-dropdown-date";
+//import { DropdownDate} from "react-dropdown-date";
+import {Slider, Typography} from '@material-ui/core/';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 const propTypes = {
     ...SectionProps.types
@@ -35,9 +38,9 @@ const FileUploader = ({
     ...props
 }) => {
     const [gndChecked, setGndChecked] = useState(true)
-    const [date, setDate] = useState()
+    //const [date, setDate] = useState('1800-01-01')
 
-    const formatDate = (date) => {
+    {/*const formatDate = (date) => {
         // formats a JS date to 'yyyy-mm-dd'
         var d = new Date(date),
             month = "" + (d.getMonth() + 1),
@@ -48,8 +51,7 @@ const FileUploader = ({
         if (day.length < 2) day = "0" + day;
 
         return [year, month, day].join("-");
-    };
-
+    };**/}
 
     const handleDate = (e) => {
         const upload = async (e) => {
@@ -162,6 +164,22 @@ const FileUploader = ({
         'push-left'
     );
 
+    const muiTheme = createMuiTheme({
+        overrides:{
+          MuiSlider: {
+            thumb:{
+            color: 'black',
+            },
+            track: {
+              color: 'black'
+            },
+            rail: {
+              color: 'white'
+            }
+          }
+      }
+      });
+
     return (
         <section
             {...props}
@@ -205,23 +223,42 @@ const FileUploader = ({
                             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                                 <div className="tiles-item-inner">
                                     <div className="features-tiles-item-header">
-                                        <DropdownDate
+                                        <Typography id="complexity-slider" gutterBottom>
+                                            Complexity
+                                        </Typography>
+                                        <ThemeProvider theme={muiTheme}>
+                                        <Slider
+                                            defaultValue={30}
+                                            //getAriaValueText={'valuetext'}
+                                            aria-labelledby="complexity-slider"
+                                            step={1}
+                                            marks
+                                            min={1}
+                                            max={100}
+                                            valueLabelDisplay="auto"
+                                        />
+                                        </ThemeProvider>
+                                        <Typography id="range-slider" gutterBottom>
+                                            Date range
+                                        </Typography>
+                                        <ThemeProvider theme={muiTheme}>
+                                        <Slider
+                                            value={[1819,1945]}
+                                            onChange={() => {console.log('handleChange')}}
+                                            valueLabelDisplay="auto"
+                                            aria-labelledby="range-slider"
+                                        />
+                                        </ThemeProvider>
+                                        {/*<DropdownDate
                                             startDate={"1800-01-01"}
                                             endDate={"1945-12-31"}
                                             selectedDate={date}
-                                            defaultValues={
-                                                {
-                                                    year: 'select year',
-                                                    month: 'select month',
-                                                    day: 'select day'
-                                                }
-                                            }
                                             onDateChange={(e) => {
                                                 console.log(e);
                                                 setDate(formatDate(e));
                                                 handleDate(formatDate(e))
                                             }}
-                                        />
+                                        />**/}
                                     </div>
                                 </div>
                             </div>
