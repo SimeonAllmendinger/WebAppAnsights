@@ -6,7 +6,6 @@ import Image from '../elements/Image';
 import sparql_img from '../../assets/images/sparql.svg';
 import github_img from '../../assets/images/Octicons-mark-github.svg';
 import knowGraph_img from '../../assets/images/knowledgeGraphIcon.png';
-import { LinkPreview } from '@dhaiwat10/react-link-preview';
 
 
 const propTypes = {
@@ -51,9 +50,9 @@ const KnowledgeGraph = ({
 
   const sectionHeader = {
     title: 'Discover the leaflet database',
-    paragraph: 'As part of the Da-Vinci Hacathon 2022 over 100 leaflets were made public. \
-    The application and implementation of Knowleedge Graphs helps to discover this database in order to \
-    optimize its usage.'
+    paragraph: 'As part of the Da-Vinci Hacathon 2022 over 100 leaflets were made public. ' +
+      'The application and implementation of Knowleedge Graphs helps to discover this database in order to' +
+      'optimize its usage.'
   };
 
   return (
@@ -119,7 +118,7 @@ const KnowledgeGraph = ({
                       alt="github"
                       height={40}
                       width={200} />
-                      
+
                   </div>
                   <div className="features-tiles-item-header">
                     <h4 className="mt-0 mb-8 center-content text-color-high">
