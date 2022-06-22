@@ -6,7 +6,7 @@ import Image from '../elements/Image';
 import sparql_img from '../../assets/images/sparql.svg';
 import github_img from '../../assets/images/Octicons-mark-github.svg';
 import knowGraph_img from '../../assets/images/knowledgeGraphIcon.png';
-import { LinkPreview } from '@dhaiwat10/react-link-preview';
+
 
 
 const propTypes = {
@@ -51,9 +51,16 @@ const KnowledgeGraph = ({
 
   const sectionHeader = {
     title: 'Discover the leaflet database',
-    paragraph: 'As part of the Da-Vinci Hacathon 2022 over 100 leaflets were made public. \
-    The application and implementation of Knowleedge Graphs helps to discover this database in order to \
-    optimize its usage.'
+    paragraph: 'The Knowledge Graph represents all data of the “Flugblätter” dataset \
+    along with their metadata provided by “Haus der Geschichte Baden-Württemberg” and \
+    the keywords extracted from the leaflets. \
+    Metadata of leaflets can be persons, organizations, places and events mentioned in the  \
+    leaflets which where manually extracted by the data providers. Furthermore, the dataset \
+    includes information about the \
+    certainty of dating information and the status of the original documents. \
+    Many of the extracted entities were connected to Wikidata and GND, which enables \
+    federated querying. It is now possible to browse and explore the dataset using a public \
+    SPARQL endpoint as well as the SHMARQL tool.'
   };
 
   return (
@@ -70,7 +77,7 @@ const KnowledgeGraph = ({
 
               <div className="features-tiles-item-header center-content">
                 <a href="https://flyer-explorer.fiz-karlsruhe.de/sparql">
-                  <div className="features-tiles-item-image mb-16 " >
+                  <div className="features-tiles-item-context mb-16 " >
 
                     <Image
                       src={sparql_img}
@@ -91,7 +98,7 @@ const KnowledgeGraph = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="features-tiles-item-content mb-16 center-content">
                 <a href='https://flyer-explorer.fiz-karlsruhe.de/ontology'>
-                  <div className="features-tiles-item-image mb-16 " >
+                  <div className="features-tiles-item-context mb-16 " >
 
                     <Image
                       src={knowGraph_img}
@@ -112,7 +119,7 @@ const KnowledgeGraph = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="features-tiles-item-content mb-16 center-content">
                 <a href='https://github.com/ISE-FIZKarlsruhe/flyer-explorer'>
-                  <div className="features-tiles-item-image mb-16 " >
+                  <div className="features-tiles-item-context mb-16 " >
 
                     <Image
                       src={github_img}
