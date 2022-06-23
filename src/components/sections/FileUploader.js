@@ -7,7 +7,7 @@ import * as Loader from 'react-loader-spinner';
 import Checkbox from '../elements/Checkbox';
 //import { DropdownDate} from "react-dropdown-date";
 import {Slider, Typography} from '@material-ui/core/';
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 
 const propTypes = {
@@ -39,6 +39,53 @@ const FileUploader = ({
 }) => {
     const [gndChecked, setGndChecked] = useState(true)
     //const [date, setDate] = useState('1800-01-01')
+    const [complexity, setComplexity] = useState(30);
+    const [dateRange, setDateRange] = useState([1819, 1945]);
+
+    const handleComplexity = (e,data) => {
+        setComplexity(data);
+        const upload = async () => {
+            await fetch('/api/uploadComplexity', {
+                method: 'POST',
+                body: JSON.stringify({
+                    complexity: complexity
+                })
+            }).then(resp => {
+                resp.json().then(data => {
+                    if (data.success) {
+                        console.log(data);
+                    } else {
+                        console.log('COMPLEXITY UPLOAD FAILED');
+                    }
+                });
+
+            })
+        };
+        upload(e);
+    }
+
+    const handleDateRange = (e,data) => {
+        setDateRange(data);
+        const upload = async () => {
+            await fetch('/api/uploadDateRange', {
+                method: 'POST',
+                body: JSON.stringify({
+                    dateRange: dateRange
+                })
+            }).then(resp => {
+                resp.json().then(data => {
+                    if (data.success) {
+                        console.log(data);
+                    } else {
+                        console.log('DATERANGE UPLOAD FAILED');
+                    }
+                });
+
+            })
+        };
+        upload(e);
+    };
+
 
     {/*const formatDate = (date) => {
         // formats a JS date to 'yyyy-mm-dd'
@@ -51,7 +98,7 @@ const FileUploader = ({
         if (day.length < 2) day = "0" + day;
 
         return [year, month, day].join("-");
-    };**/}
+    };
 
     const handleDate = (e) => {
         const upload = async (e) => {
@@ -72,7 +119,8 @@ const FileUploader = ({
             })
         };
         upload(e);
-    }
+    };
+    **/}
 
     const handleGND = () => {
         setGndChecked(!gndChecked)
@@ -164,17 +212,17 @@ const FileUploader = ({
         'push-left'
     );
 
-    const muiTheme = createMuiTheme({
+    const muiTheme = createTheme({
         overrides:{
           MuiSlider: {
             thumb:{
-            color: 'black',
+            color: '#32A189',
             },
             track: {
-              color: 'black'
+              color: '#32A189'
             },
             rail: {
-              color: 'white'
+              color: '#151719'
             }
           }
       }
@@ -204,15 +252,19 @@ const FileUploader = ({
                         <div className={tilesClasses}>
                             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                                 <div className="tiles-item-inner">
-
-                                    <div className="features-tiles-item-header">
+                                <p></p>
+                                    <p></p>
+                                    <div className="features-tiles-item-header text-font">
                                         <Checkbox onChange={handleGND}>GND</Checkbox>
-                                    </div>
 
+                                    </div>
+                                    
                                     <div className="features-tiles-item-header">
-                                        <Checkbox onChange={() => console.log('Zeitungsarchiv')}>Zeitungsarchiv</Checkbox>
+                                        <Checkbox 
+                                            onChange={() => console.log('Zeitungsarchiv')}>Zeitungsarchiv</Checkbox>
                                     </div>
-
+                                   
+                                    
                                     <div className="features-tiles-item-header">
                                         <Checkbox onChange={() => console.log('Qurator')}>Qurator</Checkbox>
                                     </div>
@@ -223,30 +275,57 @@ const FileUploader = ({
                             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                                 <div className="tiles-item-inner">
                                     <div className="features-tiles-item-header">
-                                        <Typography id="complexity-slider" gutterBottom>
+                                        <Typography id="complexity-slider">
                                             Complexity
                                         </Typography>
                                         <ThemeProvider theme={muiTheme}>
                                         <Slider
-                                            defaultValue={30}
+                                            value={complexity}
                                             //getAriaValueText={'valuetext'}
                                             aria-labelledby="complexity-slider"
                                             step={1}
-                                            marks
                                             min={1}
                                             max={100}
                                             valueLabelDisplay="auto"
+                                            marks={[
+                                                {
+                                                  value: 1,
+                                                  label: "low",
+                                                },
+                                                {
+                                                  value: 100,
+                                                  label: "high",
+                                                },
+                                              ]}
+                                            onChange={handleComplexity}
                                         />
                                         </ThemeProvider>
-                                        <Typography id="range-slider" gutterBottom>
+                                        <Typography id="range-slider">
                                             Date range
                                         </Typography>
                                         <ThemeProvider theme={muiTheme}>
-                                        <Slider
-                                            value={[1819,1945]}
-                                            onChange={() => {console.log('handleChange')}}
-                                            valueLabelDisplay="auto"
-                                            aria-labelledby="range-slider"
+                                            <Slider
+                                                min={1819}
+                                                max={1945}
+                                                step={1}
+                                                marks={[
+                                                    {
+                                                      value: 1819,
+                                                      label: "1819",
+                                                    },
+                                                    {
+                                                      value: 1918,
+                                                      label: "1918",
+                                                    },
+                                                    {
+                                                      value: 1945,
+                                                      label: "1945",
+                                                    },
+                                                  ]}
+                                                value={dateRange}
+                                                aria-labelledby="range-slider"
+                                                valueLabelDisplay="auto"
+                                                onChange={handleDateRange}
                                         />
                                         </ThemeProvider>
                                         {/*<DropdownDate

@@ -136,6 +136,58 @@ const FeaturesTiles = ({
               </div>
             </div>
 
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('../../assets/images/About/Emil.jpg')}
+                      alt="Sasha"
+                      height={60}
+                      width={300} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8 ">
+                    Sasha
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    uxxxx@kit.edu
+                  </p>
+                  <p className="m-32 text-sm">
+                    Data Scientist
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('../../assets/images/About/Emil.jpg')}
+                      alt="Sasha"
+                      height={60}
+                      width={300} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8 ">
+                    Tabea
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    uxxxx@kit.edu
+                  </p>
+                  <p className="m-32 text-sm">
+                    Data Scientist
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
