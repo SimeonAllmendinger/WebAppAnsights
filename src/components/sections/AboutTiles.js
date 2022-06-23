@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Emil
+                    Emil Meckel
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    ugxal@student.kit.edu
+                    ugxal (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
                     Data Analyst
@@ -100,7 +100,7 @@ const FeaturesTiles = ({
                     Joel Oswald
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    uvrpn@student.kit.edu
+                    joel.oswald (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
                     Software Engineer
@@ -126,7 +126,7 @@ const FeaturesTiles = ({
                     Simeon Allmendinger
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    uerib@student.kit.edu
+                    uerib (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
                     Software Engineer
@@ -141,33 +141,32 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Emil.jpg')}
-                      alt="Sasha"
+                      src={require('../../assets/images/About/Etienne.jpg')}
+                      alt="Etienne"
                       height={60}
                       width={300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 ">
-                    Sasha
+                    Etienne Posthumus
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    uxxxx@kit.edu
+                    eposthumus (at) gmail (dot) com
                   </p>
                   <p className="m-32 text-sm">
-                    Data Scientist
+                    Senior Researcher
                   </p>
 
                 </div>
               </div>
             </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Emil.jpg')}
+                      src={require('../../assets/images/About/Sasha.png')}
                       alt="Sasha"
                       height={60}
                       width={300} />
@@ -175,13 +174,38 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 ">
-                    Tabea
+                    Sasha Bruns
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    uxxxx@kit.edu
+                    oleksandra.bruns (at) fiz-karlsruhe (dot) de
                   </p>
                   <p className="m-32 text-sm">
-                    Data Scientist
+                    Junior Researcher
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('../../assets/images/About/Tabea.jpeg')}
+                      alt="Tabea"
+                      height={60}
+                      width={300} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8 ">
+                    Tabea Tietz
+                  </h4>
+                  <p className="m-0 text-sm mb-8" >
+                    tabea.tietz (at) fiz-karlsruhe (dot) de
+                  </p>
+                  <p className="m-32 text-sm">
+                    Junior Researcher
                   </p>
 
                 </div>
