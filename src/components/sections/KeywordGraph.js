@@ -94,6 +94,11 @@ const KeywordGraph = ({
         setOptions(require("../../assets/example_net/exampleNet" +
             i.toString() + "/options.json"));
         setRunning(false)
+        window.scrollTo({
+            top: 500,
+            left: 0,
+            behavior: 'smooth'
+        })
     }
 
     const tilesClasses = classNames(
