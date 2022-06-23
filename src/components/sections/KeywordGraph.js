@@ -143,7 +143,7 @@ const KeywordGraph = ({
                                     </div>
                                     <div className="features-tiles-item-content">
                                         <h4 className="mt-0 mb-8">
-                                            Aufruf Arbeiterstreik | 1918
+                                            Aufruf Gasarbeiterstreik | 1918
                                         </h4>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ const KeywordGraph = ({
                                     </div>
                                     <div className="features-tiles-item-content">
                                         <h4 className="mt-0 mb-8">
-                                            Example 2
+                                            Aufruf Bürgerwehr | 1919
                                         </h4>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@ const KeywordGraph = ({
                                     </div>
                                     <div className="features-tiles-item-content">
                                         <h4 className="mt-0 mb-8">
-                                            Example 3
+                                            Warnung vor Spartakisten | 1919
                                         </h4>
                                     </div>
                                 </div>
