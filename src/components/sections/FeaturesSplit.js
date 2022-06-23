@@ -68,14 +68,14 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Worry-free workflow
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Share your leaflet with us 
-                  </h3>
+                  Share your leaflet with us
+                </h3>
                 <p className="m-0">
                   You just upload your flyer in one of the supported formats. In addition, you can choose the corresponding release date
                   in the selection window.
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -95,14 +95,14 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Worry-free workflow
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
                   Link databases to your query
-                  </h3>
+                </h3>
                 <p className="m-0">
-                  With the "Gemeinsame Normdatei" (GND) we included a powerful reference database to complete your search space 
+                  With the "Gemeinsame Normdatei" (GND) we included a powerful reference database to complete your search space
                   with related keywords. More data connections will follow...
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -113,7 +113,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('../../assets/images/GND_Logo.jpg')}
                   alt="Features split 02"
-                  style={{width:'70%'}}/>
+                  style={{ width: '70%' }} />
               </div>
             </div>
 
@@ -121,15 +121,15 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Worry-free workflow
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
                   Discover a new experience of source scans
-                  </h3>
+                </h3>
                 <p className="m-0">
-                  Our net graph shows the relations between all relevant articles of the Reichsanzeiger in accordance to your query. 
-                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications on a 
+                  Our net graph shows the relations between all relevant articles of the Reichsanzeiger in accordance to your query.
+                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications on a
                   thematic dependency to simplify your search.
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -138,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/example_graph.jpg')}
+                  src={require('../../assets/images/example_graph.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

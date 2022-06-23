@@ -79,13 +79,13 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-          <Image
-                src={require('../../assets/images/example_graph.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
+            <Image
+              src={require('../../assets/images/example_graph.png')}
+              alt="Hero"
+              width={896}
+              height={504} />
           </div>
-          
+
         </div>
       </div>
     </section>
