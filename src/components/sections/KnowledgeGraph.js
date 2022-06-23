@@ -5,7 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import sparql_img from '../../assets/images/sparql.svg';
 import github_img from '../../assets/images/Octicons-mark-github.svg';
-import knowGraph_img from '../../assets/images/knowledgeGraphIcon.png';
+import knowGraph_img from '../../assets/images/ontology.png';
 
 
 const propTypes = {
@@ -28,7 +28,9 @@ const KnowledgeGraph = ({
   ...props
 }) => {
 
-  const link_SHMARQL=<a href='https://github.com/epoz/shmarql'>SHMARQL tool</a>;
+  const link_SHMARQL = <a href='https://github.com/epoz/shmarql' style={{
+    color: '#32A189'
+  }}> SHMARQL tool</a >;
 
   const outerClasses = classNames(
     'testimonial section',
@@ -52,16 +54,16 @@ const KnowledgeGraph = ({
 
   const sectionHeader = {
     title: 'Discover the leaflet database via Knowledge Graphs',
-    paragraph: 'The Knowledge Graph represents all data of the “Flugblätter” dataset \
-    along with their metadata provided by “Haus der Geschichte Baden-Württemberg” and \
-    the keywords extracted from the leaflets. \
-    Metadata of leaflets can be persons, organizations, places and events mentioned in the  \
-    leaflets which where manually extracted by the data providers. Furthermore, the dataset \
-    includes information about the \
-    certainty of dating information and the status of the original documents. \
-    Many of the extracted entities were connected to Wikidata and GND, which enables \
-    federated querying. It is now possible to browse and explore the dataset using a public \
-    SPARQL endpoint as well as the'+ <a href='https://github.com/epoz/shmarql'>SHMARQL tool</a>+'.'
+    paragraph: <div>The Knowledge Graph represents all data of the “Flugblätter” dataset
+      along with their metadata provided by “Haus der Geschichte Baden-Württemberg” and
+      the keywords extracted from the leaflets.
+      Metadata of leaflets can be persons, organizations, places and events mentioned in the
+      leaflets which where manually extracted by the data providers. Furthermore, the dataset
+      includes information about the +
+      certainty of dating information and the status of the original documents.
+      Many of the extracted entities were connected to Wikidata and GND, which enables
+      federated querying. It is now possible to browse and explore the dataset using a public
+      SPARQL endpoint as well as the {link_SHMARQL}.</div>
   };
 
   return (

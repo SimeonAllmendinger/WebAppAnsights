@@ -84,7 +84,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/Flugblatt_example.tif')}
+                  src={require('../../assets/images/example_flyer.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
