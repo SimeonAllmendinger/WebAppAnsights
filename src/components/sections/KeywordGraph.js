@@ -67,6 +67,7 @@ const KeywordGraph = ({
     );
 
     useEffect(() => {
+
         const network =
             container.current &&
             new Network(container.current, { nodes, edges }, options);
@@ -112,11 +113,11 @@ const KeywordGraph = ({
             <div className="container" style={{ alignItems: 'center' }}>
                 <div className={innerClasses} style={{ "paddingTop": "20px", "paddingBottom": "10px", alignItems: 'center' }}>
                     <div ref={container} style={{ height: '800px', width: '100%' }} />
-                    <SectionHeader data={sectionHeader} className="center-content" style={{ "paddingTop": "50px", alignItems: 'center' }} data-reveal-delay="200"/>
+                    <SectionHeader data={sectionHeader} className="center-content" style={{ "paddingTop": "50px", alignItems: 'center' }} data-reveal-delay="200" />
 
                     {running ?
                         <div>
-                            console.log('No Example selection possible, since worrkflow is running')
+                            console.log('No Example selection possible, since workflow is running')
                             <Loader.ThreeDots color="dark" />
                         </div>
                         :
@@ -133,7 +134,7 @@ const KeywordGraph = ({
                                                 width={150}
                                                 height={150}
                                                 max-height="100%" />
-                                            </div>
+                                        </div>
                                     </div>
                                     <div className="features-tiles-item-content">
                                         <h4 className="mt-0 mb-8">
