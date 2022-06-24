@@ -12,15 +12,14 @@ import DaVinciHackathon from '../components/sections/DaVinci_Hackathon';
 const Home = () => {
 
   return (
-  
+
     <>
       <Hero className="illustration-section-01" />
-      <DaVinciHackathon/>
-      <FeaturesTiles/>
+      <DaVinciHackathon />
+      <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill />
       <KnowledgeGraph topDivider />
-      <Testimonial topDivider />
-       
+
     </>
   );
 }
