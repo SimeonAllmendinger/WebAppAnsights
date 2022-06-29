@@ -4,7 +4,7 @@
             "size": 60,
             "title": "Flugblatt",
             "fixed": true,
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_flyer.jpg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_flyer.jpg",
             "id": "KEY",
             "label": "Flugblatt",
             "shape": "image"
@@ -12,7 +12,7 @@
         {
             "size": 40,
             "title": "1916-01-09--1918-12-31---155-167-161-9569-0097.hocr\n Keywords: \nArbeitgeber\nstreiken\nArbeiter\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(126, 53, 91, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/161-9569/0097.jp2",
             "id": 0,
@@ -22,7 +22,7 @@
         {
             "size": 20,
             "title": "1897-01-02--1903-02-28---001-045-030-9437-0679.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(0, 196, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/030-9437/0679.jp2",
             "id": 1,
@@ -32,7 +32,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-008-8449-0382.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/008-8449/0382.jp2",
             "id": 2,
@@ -42,7 +42,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-159-9567-0431.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/159-9567/0431.jp2",
             "id": 3,
@@ -52,7 +52,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-107-9515-0034.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/107-9515/0034.jp2",
             "id": 4,
@@ -62,7 +62,7 @@
         {
             "size": 20,
             "title": "1897-01-02--1903-02-28---001-045-014-9421-0422.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/014-9421/0422.jp2",
             "id": 5,
@@ -72,7 +72,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-116-9524-0294.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(0, 196, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/116-9524/0294.jp2",
             "id": 6,
@@ -82,7 +82,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-156-9564-0125.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(0, 196, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/156-9564/0125.jp2",
             "id": 7,
@@ -92,7 +92,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-073-9481-0398.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/073-9481/0398.jp2",
             "id": 8,
@@ -102,7 +102,7 @@
         {
             "size": 30,
             "title": "1922-01-02--1923-12-31---022-036-031-8991-0185.hocr\n Keywords: \nBetriebe\nArbeiter\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(47, 248, 97, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/031-8991/0185.jp2",
             "id": 9,
@@ -112,7 +112,7 @@
         {
             "size": 20,
             "title": "1897-01-02--1903-02-28---001-045-021-9428-0507.hocr\n Keywords: \nauszumachen\nstreiken",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(83, 85, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/021-9428/0507.jp2",
             "id": 10,
@@ -122,7 +122,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-007-8448-0127.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/007-8448/0127.jp2",
             "id": 11,
@@ -132,7 +132,7 @@
         {
             "size": 20,
             "title": "1919-01-02--1921-12-31---001-021-016-8976-0326.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/016-8976/0326.jp2",
             "id": 12,
@@ -142,7 +142,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-132-9540-0520.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/132-9540/0520.jp2",
             "id": 13,
@@ -152,7 +152,7 @@
         {
             "size": 20,
             "title": "1919-01-02--1921-12-31---001-021-014-8974-0180.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/014-8974/0180.jp2",
             "id": 14,
@@ -162,7 +162,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-131-9539-0113.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/131-9539/0113.jp2",
             "id": 15,
@@ -172,7 +172,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-059-9467-0094.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/059-9467/0094.jp2",
             "id": 16,
@@ -182,7 +182,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-086-9494-0034.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/086-9494/0034.jp2",
             "id": 17,
@@ -192,7 +192,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-068-9476-0321.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/068-9476/0321.jp2",
             "id": 18,
@@ -202,7 +202,7 @@
         {
             "size": 20,
             "title": "1928-03-01--1930-10-31---066-081-077-9037-0313.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(255, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/077-9037/0313.jp2",
             "id": 19,
@@ -212,7 +212,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-104-9512-0443.hocr\n Keywords: \nArbeiter\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(254, 151, 181, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/104-9512/0443.jp2",
             "id": 20,
@@ -222,7 +222,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-013-8973-0774.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/013-8973/0774.jp2",
             "id": 21,
@@ -232,7 +232,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-013-8973-0773.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/013-8973/0773.jp2",
             "id": 22,
@@ -242,7 +242,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-011-8971-0162.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/011-8971/0162.jp2",
             "id": 23,
@@ -252,7 +252,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-009-8969-0581.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/009-8969/0581.jp2",
             "id": 24,
@@ -262,7 +262,7 @@
         {
             "size": 30,
             "title": "1897-01-02--1903-02-28---001-045-012-9419-0072.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(8, 147, 195, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/012-9419/0072.jp2",
             "id": 25,
@@ -272,7 +272,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-081-9489-0668.hocr\n Keywords: \nArbeitgeber\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(96, 138, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/081-9489/0668.jp2",
             "id": 26,
@@ -282,7 +282,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-011-8971-0126.hocr\n Keywords: \nArbeitgeber\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(95, 138, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/011-8971/0126.jp2",
             "id": 27,
@@ -292,7 +292,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-098-9506-0541.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(8, 147, 194, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/098-9506/0541.jp2",
             "id": 28,
@@ -302,7 +302,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-099-9507-0789.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(8, 147, 194, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/099-9507/0789.jp2",
             "id": 29,
@@ -312,7 +312,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-127-9533-0513.hocr\n Keywords: \nArbeitgeber\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(97, 135, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/127-9533/0513.jp2",
             "id": 30,
@@ -322,7 +322,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-065-9473-0692.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/065-9473/0692.jp2",
             "id": 31,
@@ -332,7 +332,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-016-8976-0617.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/016-8976/0617.jp2",
             "id": 32,
@@ -342,7 +342,7 @@
         {
             "size": 30,
             "title": "1897-01-02--1903-02-28---001-045-043-9451-0196.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/043-9451/0196.jp2",
             "id": 33,
@@ -352,7 +352,7 @@
         {
             "size": 30,
             "title": "1922-01-02--1923-12-31---022-036-036-8996-0372.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/036-8996/0372.jp2",
             "id": 34,
@@ -362,7 +362,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-004-8964-0564.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/004-8964/0564.jp2",
             "id": 35,
@@ -372,7 +372,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-104-9512-0236.hocr\n Keywords: \nBetriebe\nArbeiter\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(85, 244, 196, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/104-9512/0236.jp2",
             "id": 36,
@@ -382,7 +382,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-066-9474-0100.hocr\n Keywords: \nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(6, 232, 180, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/066-9474/0100.jp2",
             "id": 37,
@@ -392,7 +392,7 @@
         {
             "size": 40,
             "title": "1897-01-02--1903-02-28---001-045-014-9421-0560.hocr\n Keywords: \nSorgt\nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(66, 118, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/014-9421/0560.jp2",
             "id": 38,
@@ -402,7 +402,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-069-9477-0335.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/069-9477/0335.jp2",
             "id": 39,
@@ -412,7 +412,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-126-9532-0181.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(149, 255, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/126-9532/0181.jp2",
             "id": 40,
@@ -422,7 +422,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-080-9488-0492.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/080-9488/0492.jp2",
             "id": 41,
@@ -432,7 +432,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-115-9523-0058.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/115-9523/0058.jp2",
             "id": 42,
@@ -442,7 +442,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-002-8962-0309.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/002-8962/0309.jp2",
             "id": 43,
@@ -452,7 +452,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-110-9518-0332.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/110-9518/0332.jp2",
             "id": 44,
@@ -462,7 +462,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-116-9524-0237.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/116-9524/0237.jp2",
             "id": 45,
@@ -472,7 +472,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-132-9540-0248.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/132-9540/0248.jp2",
             "id": 46,
@@ -482,7 +482,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-075-9483-0256.hocr\n Keywords: \nBetriebe\nstreiken\nArbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(149, 254, 108, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/075-9483/0256.jp2",
             "id": 47,
@@ -492,7 +492,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-047-9455-0635.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(0, 196, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/047-9455/0635.jp2",
             "id": 48,
@@ -502,7 +502,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-093-9501-0015.hocr\n Keywords: \nBetriebe\nauszumachen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 195, 52, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/093-9501/0015.jp2",
             "id": 49,
@@ -512,7 +512,7 @@
         {
             "size": 10,
             "title": "1858-01-01--1865-06-30---061-078-077-9958-0008.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(60, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/077-9958/0008.jp2",
             "id": 50,
@@ -522,7 +522,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-007-8967-0006.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(60, 0, 184, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/007-8967/0006.jp2",
             "id": 51,
@@ -532,7 +532,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-016-8976-0497.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(59, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/016-8976/0497.jp2",
             "id": 52,
@@ -542,7 +542,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-143-9551-0257.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(59, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/143-9551/0257.jp2",
             "id": 53,
@@ -552,7 +552,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-008-8968-0529.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(59, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/008-8968/0529.jp2",
             "id": 54,
@@ -562,7 +562,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-094-9502-0678.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(60, 0, 184, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/094-9502/0678.jp2",
             "id": 55,
@@ -572,7 +572,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-009-8969-0396.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(59, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/009-8969/0396.jp2",
             "id": 56,
@@ -582,7 +582,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-009-8969-0542.hocr\n Keywords: \nArbeitgeber",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(60, 0, 185, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/009-8969/0542.jp2",
             "id": 57,
@@ -592,7 +592,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-081-9489-0277.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/081-9489/0277.jp2",
             "id": 58,
@@ -602,7 +602,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-102-9510-0260.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/102-9510/0260.jp2",
             "id": 59,
@@ -612,7 +612,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-004-8964-0548.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/004-8964/0548.jp2",
             "id": 60,
@@ -622,7 +622,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-116-9524-0315.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/116-9524/0315.jp2",
             "id": 61,
@@ -632,7 +632,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-108-9516-0202.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/108-9516/0202.jp2",
             "id": 62,
@@ -642,7 +642,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-124-9530-0526.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/124-9530/0526.jp2",
             "id": 63,
@@ -652,7 +652,7 @@
         {
             "size": 30,
             "title": "1925-10-01--1928-02-29---049-065-053-9013-0087.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/053-9013/0087.jp2",
             "id": 64,
@@ -662,7 +662,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-126-9532-0533.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/126-9532/0533.jp2",
             "id": 65,
@@ -672,7 +672,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-047-9455-0196.hocr\n Keywords: \nBetriebe\nstreiken\nSorgt",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(180, 172, 47, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/047-9455/0196.jp2",
             "id": 66,
@@ -682,7 +682,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-079-9487-0501.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(8, 147, 195, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/079-9487/0501.jp2",
             "id": 67,
@@ -692,7 +692,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-057-9465-0436.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(8, 147, 195, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/057-9465/0436.jp2",
             "id": 68,
@@ -702,7 +702,7 @@
         {
             "size": 30,
             "title": "1909-06-01--1916-08-31---090-154-102-9510-0661.hocr\n Keywords: \nArbeitgeber\nBetriebe\nGasarbeiter",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(8, 147, 194, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/102-9510/0661.jp2",
             "id": 69,
@@ -712,7 +712,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-064-9472-0028.hocr\n Keywords: \nauszumachen\nstreiken",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(83, 85, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/064-9472/0028.jp2",
             "id": 70,
@@ -722,7 +722,7 @@
         {
             "size": 20,
             "title": "1897-01-02--1903-02-28---001-045-008-9415-0629.hocr\n Keywords: \nauszumachen\nstreiken",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(83, 85, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/008-9415/0629.jp2",
             "id": 71,

@@ -4,7 +4,7 @@
             "size": 60,
             "title": "Flugblatt",
             "fixed": true,
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_flyer.jpg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_flyer.jpg",
             "id": "KEY",
             "label": "Flugblatt",
             "shape": "image"
@@ -12,7 +12,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-009-8969-0124.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(253, 254, 250, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/009-8969/0124.jp2",
             "id": 0,
@@ -22,7 +22,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-013-8973-0774.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(254, 253, 250, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/013-8973/0774.jp2",
             "id": 1,
@@ -32,7 +32,7 @@
         {
             "size": 10,
             "title": "1883-10-01--1885-12-31---057-070-066-7985-0007.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(253, 254, 250, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/066-7985/0007.jp2",
             "id": 2,
@@ -42,7 +42,7 @@
         {
             "size": 10,
             "title": "1925-10-01--1928-02-29---049-065-059-9019-0402.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(254, 253, 250, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/059-9019/0402.jp2",
             "id": 3,
@@ -52,7 +52,7 @@
         {
             "size": 10,
             "title": "1903-03-02--1909-05-29---046-089-088-9496-0341.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(253, 253, 255, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/088-9496/0341.jp2",
             "id": 4,
@@ -62,7 +62,7 @@
         {
             "size": 10,
             "title": "1903-03-02--1909-05-29---046-089-055-9463-0443.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(254, 253, 252, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/055-9463/0443.jp2",
             "id": 5,
@@ -72,7 +72,7 @@
         {
             "size": 10,
             "title": "1925-10-01--1928-02-29---049-065-062-9022-0430.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(253, 255, 249, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/062-9022/0430.jp2",
             "id": 6,
@@ -82,7 +82,7 @@
         {
             "size": 10,
             "title": "1928-03-01--1930-10-31---066-081-070-9030-0514.hocr\n Keywords: \nsagen",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(253, 254, 249, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/070-9030/0514.jp2",
             "id": 7,
@@ -92,7 +92,7 @@
         {
             "size": 10,
             "title": "1925-07-01--1925-09-30---047-048-047-9007-0166.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/047-9007/0166.jp2",
             "id": 8,
@@ -102,7 +102,7 @@
         {
             "size": 10,
             "title": "1897-01-02--1903-02-28---001-045-044-9452-0328.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/044-9452/0328.jp2",
             "id": 9,
@@ -112,7 +112,7 @@
         {
             "size": 10,
             "title": "1897-01-02--1903-02-28---001-045-044-9452-0028.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/044-9452/0028.jp2",
             "id": 10,
@@ -122,7 +122,7 @@
         {
             "size": 10,
             "title": "1903-03-02--1909-05-29---046-089-068-9476-0181.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/068-9476/0181.jp2",
             "id": 11,
@@ -132,7 +132,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-145-9553-0157.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/145-9553/0157.jp2",
             "id": 12,
@@ -142,7 +142,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-149-9557-0316.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/149-9557/0316.jp2",
             "id": 13,
@@ -152,7 +152,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-138-9546-0423.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/138-9546/0423.jp2",
             "id": 14,
@@ -162,7 +162,7 @@
         {
             "size": 10,
             "title": "1922-01-02--1923-12-31---022-036-036-8996-0372.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/036-8996/0372.jp2",
             "id": 15,
@@ -172,7 +172,7 @@
         {
             "size": 10,
             "title": "1903-03-02--1909-05-29---046-089-067-9475-0273.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/067-9475/0273.jp2",
             "id": 16,
@@ -182,7 +182,7 @@
         {
             "size": 10,
             "title": "1922-01-02--1923-12-31---022-036-026-8986-0031.hocr\n Keywords: \nVerleumdern",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(0, 0, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/026-8986/0031.jp2",
             "id": 17,

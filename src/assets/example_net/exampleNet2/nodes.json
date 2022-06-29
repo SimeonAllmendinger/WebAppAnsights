@@ -4,7 +4,7 @@
             "size": 60,
             "title": "Flugblatt",
             "fixed": true,
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_flyer.jpg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_flyer.jpg",
             "id": "KEY",
             "label": "Flugblatt",
             "shape": "image"
@@ -12,7 +12,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-015-8975-0106.hocr\n Keywords: \nwerben",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(255, 207, 202, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/015-8975/0106.jp2",
             "id": 0,
@@ -22,7 +22,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-087-9495-0339.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(123, 177, 255, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/087-9495/0339.jp2",
             "id": 1,
@@ -32,7 +32,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-087-9047-0336.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/087-9047/0336.jp2",
             "id": 2,
@@ -42,7 +42,7 @@
         {
             "size": 10,
             "title": "1924-01-02--1925-06-30---037-046-043-9003-0123.hocr\n Keywords: \nwerben",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(254, 207, 202, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/043-9003/0123.jp2",
             "id": 3,
@@ -52,7 +52,7 @@
         {
             "size": 10,
             "title": "1919-01-02--1921-12-31---001-021-015-8975-0697.hocr\n Keywords: \nwerben",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(254, 207, 202, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/015-8975/0697.jp2",
             "id": 4,
@@ -62,7 +62,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-135-9543-0432.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/135-9543/0432.jp2",
             "id": 5,
@@ -72,7 +72,7 @@
         {
             "size": 10,
             "title": "1909-06-01--1916-08-31---090-154-107-9515-0392.hocr\n Keywords: \nwerben",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(254, 207, 202, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/107-9515/0392.jp2",
             "id": 6,
@@ -82,7 +82,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-093-9053-0180.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/093-9053/0180.jp2",
             "id": 7,
@@ -92,7 +92,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-013-8454-0388.hocr\n Keywords: \nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(0, 185, 124, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/013-8454/0388.jp2",
             "id": 8,
@@ -102,7 +102,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-028-8469-0359.hocr\n Keywords: \nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(0, 185, 124, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/028-8469/0359.jp2",
             "id": 9,
@@ -112,7 +112,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-159-9567-0486.hocr\n Keywords: \nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(0, 185, 124, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/159-9567/0486.jp2",
             "id": 10,
@@ -122,7 +122,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-001-8442-0078.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/001-8442/0078.jp2",
             "id": 11,
@@ -132,7 +132,7 @@
         {
             "size": 20,
             "title": "1928-03-01--1930-10-31---066-081-077-9037-0518.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/077-9037/0518.jp2",
             "id": 12,
@@ -142,7 +142,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-093-9053-0460.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/093-9053/0460.jp2",
             "id": 13,
@@ -152,7 +152,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-004-8445-0264.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/004-8445/0264.jp2",
             "id": 14,
@@ -162,7 +162,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-091-9051-0259.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/091-9051/0259.jp2",
             "id": 15,
@@ -172,7 +172,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-010-8451-0564.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/010-8451/0564.jp2",
             "id": 16,
@@ -182,7 +182,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-011-8452-0165.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/011-8452/0165.jp2",
             "id": 17,
@@ -192,7 +192,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-002-8443-0504.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/002-8443/0504.jp2",
             "id": 18,
@@ -202,7 +202,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-011-8452-0436.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/011-8452/0436.jp2",
             "id": 19,
@@ -212,7 +212,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-007-8448-0606.hocr\n Keywords: \nStadtteils\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(68, 0, 172, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/007-8448/0606.jp2",
             "id": 20,
@@ -222,7 +222,7 @@
         {
             "size": 20,
             "title": "1919-01-02--1921-12-31---001-021-012-8972-0279.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(162, 255, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/012-8972/0279.jp2",
             "id": 21,
@@ -232,7 +232,7 @@
         {
             "size": 30,
             "title": "1922-01-02--1923-12-31---022-036-024-8984-0044.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/024-8984/0044.jp2",
             "id": 22,
@@ -242,7 +242,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-001-8961-0279.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/001-8961/0279.jp2",
             "id": 23,
@@ -252,7 +252,7 @@
         {
             "size": 30,
             "title": "1922-01-02--1923-12-31---022-036-035-8995-0621.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/035-8995/0621.jp2",
             "id": 24,
@@ -262,7 +262,7 @@
         {
             "size": 30,
             "title": "1903-03-02--1909-05-29---046-089-084-9492-0092.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/084-9492/0092.jp2",
             "id": 25,
@@ -272,7 +272,7 @@
         {
             "size": 30,
             "title": "1916-01-09--1918-12-31---155-167-159-9567-0344.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/159-9567/0344.jp2",
             "id": 26,
@@ -282,7 +282,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-002-8962-0058.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/002-8962/0058.jp2",
             "id": 27,
@@ -292,7 +292,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-005-8965-0648.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/005-8965/0648.jp2",
             "id": 28,
@@ -302,7 +302,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-019-8979-0285.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/019-8979/0285.jp2",
             "id": 29,
@@ -312,7 +312,7 @@
         {
             "size": 30,
             "title": "1919-01-02--1921-12-31---001-021-008-8968-0611.hocr\n Keywords: \nwerben\nStuttgart\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(91, 223, 165, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/008-8968/0611.jp2",
             "id": 30,
@@ -322,7 +322,7 @@
         {
             "size": 20,
             "title": "1940-04-01--1943-06-30---033-044-039-8480-0283.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/039-8480/0283.jp2",
             "id": 31,
@@ -332,7 +332,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-008-8449-0153.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/008-8449/0153.jp2",
             "id": 32,
@@ -342,7 +342,7 @@
         {
             "size": 20,
             "title": "1922-01-02--1923-12-31---022-036-026-8986-0544.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/026-8986/0544.jp2",
             "id": 33,
@@ -352,7 +352,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-091-9051-0586.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/091-9051/0586.jp2",
             "id": 34,
@@ -362,7 +362,7 @@
         {
             "size": 20,
             "title": "1922-01-02--1923-12-31---022-036-035-8995-0447.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/035-8995/0447.jp2",
             "id": 35,
@@ -372,7 +372,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-151-9559-0522.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/151-9559/0522.jp2",
             "id": 36,
@@ -382,7 +382,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-127-9533-0260.hocr\n Keywords: \nwerben\nStuttgart",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(123, 177, 254, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/127-9533/0260.jp2",
             "id": 37,
@@ -392,7 +392,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-094-9502-0479.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/094-9502/0479.jp2",
             "id": 38,
@@ -402,7 +402,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-156-9564-0358.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/156-9564/0358.jp2",
             "id": 39,
@@ -412,7 +412,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-085-9493-0678.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/085-9493/0678.jp2",
             "id": 40,
@@ -422,7 +422,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-116-9524-0376.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/116-9524/0376.jp2",
             "id": 41,
@@ -432,7 +432,7 @@
         {
             "size": 20,
             "title": "1922-01-02--1923-12-31---022-036-022-8982-0560.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/022-8982/0560.jp2",
             "id": 42,
@@ -442,7 +442,7 @@
         {
             "size": 20,
             "title": "1919-01-02--1921-12-31---001-021-006-8966-0020.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/006-8966/0020.jp2",
             "id": 43,
@@ -452,7 +452,7 @@
         {
             "size": 20,
             "title": "1928-03-01--1930-10-31---066-081-078-9038-0023.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/078-9038/0023.jp2",
             "id": 44,
@@ -462,7 +462,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-149-9557-0186.hocr\n Keywords: \nwerben\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(162, 254, 95, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/149-9557/0186.jp2",
             "id": 45,
@@ -472,7 +472,7 @@
         {
             "size": 20,
             "title": "1928-03-01--1930-10-31---066-081-079-9039-0591.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/079-9039/0591.jp2",
             "id": 46,
@@ -482,7 +482,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-018-8459-0134.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/018-8459/0134.jp2",
             "id": 47,
@@ -492,7 +492,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-024-8465-0166.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/024-8465/0166.jp2",
             "id": 48,
@@ -502,7 +502,7 @@
         {
             "size": 20,
             "title": "1940-04-01--1943-06-30---033-044-037-8478-0231.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan1.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan1.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/037-8478/0231.jp2",
             "id": 49,
@@ -512,7 +512,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-092-9052-0406.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/092-9052/0406.jp2",
             "id": 50,
@@ -522,7 +522,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-007-8448-0034.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan4.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan4.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/007-8448/0034.jp2",
             "id": 51,
@@ -532,7 +532,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-087-9047-0138.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/087-9047/0138.jp2",
             "id": 52,
@@ -542,7 +542,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-115-9523-0662.hocr\n Keywords: \nwerben\nStadtteils",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(233, 73, 137, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/115-9523/0662.jp2",
             "id": 53,
@@ -552,7 +552,7 @@
         {
             "size": 20,
             "title": "1909-06-01--1916-08-31---090-154-138-9546-0424.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/138-9546/0424.jp2",
             "id": 54,
@@ -562,7 +562,7 @@
         {
             "size": 20,
             "title": "1919-01-02--1921-12-31---001-021-009-8969-0177.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(112, 86, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/009-8969/0177.jp2",
             "id": 55,
@@ -572,7 +572,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-004-8445-0502.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan6.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan6.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/004-8445/0502.jp2",
             "id": 56,
@@ -582,7 +582,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-156-9564-0142.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/156-9564/0142.jp2",
             "id": 57,
@@ -592,7 +592,7 @@
         {
             "size": 20,
             "title": "1930-11-01--1932-12-31---082-093-087-9047-0421.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan3.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan3.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/087-9047/0421.jp2",
             "id": 58,
@@ -602,7 +602,7 @@
         {
             "size": 20,
             "title": "1897-01-02--1903-02-28---001-045-045-9453-0298.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan5.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan5.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/045-9453/0298.jp2",
             "id": 59,
@@ -612,7 +612,7 @@
         {
             "size": 20,
             "title": "1903-03-02--1909-05-29---046-089-078-9486-0184.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(108, 84, 1, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/078-9486/0184.jp2",
             "id": 60,
@@ -622,7 +622,7 @@
         {
             "size": 20,
             "title": "1916-01-09--1918-12-31---155-167-156-9564-0421.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan7.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan7.jpeg",
             "color": "rgba(110, 85, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/156-9564/0421.jp2",
             "id": 61,
@@ -632,7 +632,7 @@
         {
             "size": 20,
             "title": "1933-01-02--1940-03-30---001-032-006-8447-0791.hocr\n Keywords: \nStadtteils\nLund",
-            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/AppVisualAnzeights/src/assets/images/scan_examples/example_scan2.jpeg",
+            "image": "file:///Users/joel/UNI_Offline/VisualAnzeights/WebAppAnsights/src/assets/images/scan_examples/example_scan2.jpeg",
             "color": "rgba(108, 85, 0, 0.7)",
             "url": "https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/006-8447/0791.jp2",
             "id": 62,
