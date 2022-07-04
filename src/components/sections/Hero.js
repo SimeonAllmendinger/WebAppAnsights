@@ -50,27 +50,23 @@ const Hero = ({
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200">
-              Welcome to <span className="text-color-primary">ansights</span>
+              Welcome to your <span className="text-color-primary">waste|detective</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Link your historic data in a new way...
+                Separate you garbage in an easy way...
               </p>
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
 
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/joelosw/VisualAnzeights.git">
-                    view on github
+                  <Button tag="a" color="dark" wideMobile href="https://git.scc.kit.edu/uerib/waste-detective.git">
+                    View on GitLab
                   </Button>
                   <Button tag="a" color="primary" wideMobile>
                     <Link to="/workflow">
-                      get started
+                      Get Started
                     </Link>
-                  </Button>
-
-                  <Button tag="a" color="dark" wideMobile href='https://flyer-explorer.fiz-karlsruhe.de/ontology'>
-                    knowledge graph
                   </Button>
 
                 </ButtonGroup>
