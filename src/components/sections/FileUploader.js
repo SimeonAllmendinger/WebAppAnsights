@@ -145,21 +145,6 @@ const FileUploader = ({
                         </div>
                         :
                         <div className={tilesClasses}>
-
-                            <div className='input-group'>
-                                <form onSubmit={console.log('handleSubmit')} className="container mt-5 pt-5 pb-5" encType="multipart/form-data">
-                                    <div className="input-group justify-content-center mt-4">
-                                        <Button type="submit" color="primary" wideMobile >Annotate</Button>
-                                    </div>
-                                    <div className="form-inline justify-content-center mt-5">
-                                        <div className="input-group">
-                                            <Input type="file" id="image" name="image" placeholder="Drag your File here"
-                                                accept="image/*" className="file-custom" hasIcon='right'
-                                                style={{ height: '52px', width: '900px' }} />
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     }
                 </div>

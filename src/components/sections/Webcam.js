@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Network } from 'vis-network';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Webcam from "react-webcam";
@@ -7,6 +6,13 @@ import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import SectionHeader from './partials/SectionHeader';
 import * as Loader from 'react-loader-spinner';
+import styled from "styled-components";
+import config from "../../config/config";
+
+const Wrapper = styled.div`
+  display: block;
+  margin: 0 auto;
+`;
 
 const propTypes = {
     ...SectionProps.types
@@ -30,6 +36,10 @@ const KeywordGraph = ({
 }) => {
 
     const webcamRef = useRef(null);
+    const [capturedImg, setCapturedImg] = useState(null);
+    const [prediction, setPrediction] = useState("");
+    const [isPaused, setPause] = useState(false);
+    const ws = useRef(null);
 
     const outerClasses = classNames(
         'keywordGraph-outer section',
@@ -50,16 +60,49 @@ const KeywordGraph = ({
         'tiles-wrap center-content',
     );
 
+    useEffect(() => {
+        const client_id = Date.now();
+        const url = `${config.WS_SERVER}/${client_id}`;
+        console.log(url);
+        ws.current = new WebSocket(url);
+        ws.current.onopen = () => console.log("ws opened");
+        ws.current.onclose = () => console.log("ws closed");
+
+        return () => {
+            ws.current.close();
+        };
+    }, []);
+
+    useEffect(() => {
+        if (!ws.current) return;
+
+        ws.current.onmessage = (event) => {
+            if (isPaused) return;
+            const message = JSON.parse(event.data);
+            // console.log(message);
+            setCapturedImg(message.output);
+            setPrediction(message.prediction);
+        };
+    }, [isPaused]);
+
+    function sendMessage(msg) {
+        if (!ws.current) return;
+
+        ws.current.send(msg);
+    }
+
     const videoConstraints = {
-        facingMode: { exact: "environment" }
-      };
-    
-    const capture = React.useCallback(
-        () => {
-            const imageSrc = webcamRef.current.getScreenshot();
-        },
-        [webcamRef]
-    );
+        width: 1280,
+        height: 720,
+        facingMode: "environment", // Can be "environment" or "user"
+    };
+
+    const capture = useCallback(() => {
+        const capturedImg = webcamRef.current.getScreenshot();
+        // setCapturedImg(capturedImg);
+        // console.log(capturedImg);
+        sendMessage(capturedImg);
+    }, [webcamRef]);
 
     return (
         <section
@@ -76,14 +119,19 @@ const KeywordGraph = ({
                         <div>
                             <Webcam
                                 audio={false}
-                                height={720}
                                 ref={webcamRef}
                                 screenshotFormat="image/jpeg"
-                                width={1280}
+                                width="100%"
                                 videoConstraints={videoConstraints}
-                                style={{ height: '800px', width: '100%' }}
                             />
-                            <button onClick={capture}>Capture photo</button>
+                            <p>
+                                <button onClick={capture}>Capture photo</button>
+                            </p>
+                            {capturedImg && <img src={capturedImg} width="50%" />}
+
+                            <p>
+                                <h3>{prediction && prediction}</h3>
+                            </p>
                         </div>}
                 </div>
             </div>

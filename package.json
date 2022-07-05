@@ -20,6 +20,7 @@
     "react-scripts": "^5.0.1",
     "react-vis-network-graph": "^3.0.1",
     "react-webcam": "^7.0.1",
+    "styled-components": "^5.3.5",
     "vis-network": "^9.1.2"
   },
   "scripts": {
@@ -44,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:8088",
   "devDependencies": {
     "sass": "^1.52.3"
   }
