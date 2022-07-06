@@ -10,6 +10,7 @@
     "lodash": "^4.17.15",
     "raw-loader": "^4.0.2",
     "react": "^16.13.1",
+    "react-bbox-annotator": "^0.3.0",
     "react-dom": "^16.13.1",
     "react-dropdown-date": "^2.2.7",
     "react-ga": "^2.7.0",

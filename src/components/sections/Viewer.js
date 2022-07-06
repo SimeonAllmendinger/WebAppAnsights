@@ -4,6 +4,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import Webcam from "react-webcam";
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import Button from '../elements/Button';
 import SectionHeader from './partials/SectionHeader';
 import * as Loader from 'react-loader-spinner';
 import styled from "styled-components";
@@ -22,7 +23,7 @@ const defaultProps = {
     ...SectionProps.defaults
 }
 
-const KeywordGraph = ({
+const Viewer = ({
     className,
     topOuterDivider,
     bottomOuterDivider,
@@ -79,7 +80,7 @@ const KeywordGraph = ({
         ws.current.onmessage = (event) => {
             if (isPaused) return;
             const message = JSON.parse(event.data);
-            // console.log(message);
+            console.log(message);
             setCapturedImg(message.output);
             setPrediction(message.prediction);
         };
@@ -99,8 +100,8 @@ const KeywordGraph = ({
 
     const capture = useCallback(() => {
         const capturedImg = webcamRef.current.getScreenshot();
-        // setCapturedImg(capturedImg);
-        // console.log(capturedImg);
+        setCapturedImg(capturedImg);
+        //console.log(capturedImg);
         sendMessage(capturedImg);
     }, [webcamRef]);
 
@@ -111,35 +112,61 @@ const KeywordGraph = ({
         >
             <div className="container" style={{ alignItems: 'center' }}>
                 <div className={innerClasses} style={{ "paddingTop": "20px", "paddingBottom": "10px", alignItems: 'center' }}>
-                    {running ?
+                    {isPaused ?
                         <div>
                             <Loader.ThreeDots color="dark" />
                         </div>
                         :
-                        <div>
-                            <Webcam
-                                audio={false}
-                                ref={webcamRef}
-                                screenshotFormat="image/jpeg"
-                                width="100%"
-                                videoConstraints={videoConstraints}
-                            />
-                            <p>
-                                <button onClick={capture}>Capture photo</button>
-                            </p>
-                            {capturedImg && <img src={capturedImg} width="50%" />}
+                        <div className={tilesClasses}>
 
-                            <p>
-                                <h3>{prediction && prediction}</h3>
-                            </p>
-                        </div>}
+                            <div className="tiles-item reveal-from-bottom">
+                                <div className="tiles-item-inner">
+                                    <div className="features-tiles-item-header">
+                                        <div className="features-tiles-item-image mb-16">
+                                            <Webcam
+                                                audio={false}
+                                                ref={webcamRef}
+                                                screenshotFormat="image/jpeg"
+                                                width="100%"
+                                                videoConstraints={videoConstraints}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="features-tiles-item-content">
+                                        <h4 className="mt-0 mb-8">
+                                            Webcam
+                                        </h4>
+                                        <Button onClick={capture} color='dark'>Capture photo</Button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="tiles-item reveal-from-bottom">
+                                <div className="tiles-item-inner">
+                                    <div className="features-tiles-item-header">
+                                        <div className="features-tiles-item-image mb-16">
+                                            {capturedImg && <img src={capturedImg} width="100%" />}
+                                        </div>
+                                    </div>
+                                    <div className="features-tiles-item-content">
+                                        <h4 className="mt-0 mb-8">
+                                            Prediction
+                                        </h4>
+                                        <h3>{prediction && prediction}</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    }
                 </div>
             </div>
+
         </section >
     );
 };
 
-KeywordGraph.propTypes = propTypes;
-KeywordGraph.defaultProps = defaultProps;
+Viewer.propTypes = propTypes;
+Viewer.defaultProps = defaultProps;
 
-export default KeywordGraph;
+export default Viewer;

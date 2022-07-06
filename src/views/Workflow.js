@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import sections
-import FileUploader from '../components/sections/FileUploader';
-import Webcam from '../components/sections/Webcam';
+import  WorkflowHeader from '../components/sections/WorkflowHeader';
+import Viewer from '../components/sections/Viewer';
 
 
 const Workflow = () => {
@@ -15,7 +15,7 @@ const Workflow = () => {
         setRunning={setRunning}
         running={running}
       />
-      <Webcam
+      <Viewer
         running={running}
         setRunning={setRunning}
       />

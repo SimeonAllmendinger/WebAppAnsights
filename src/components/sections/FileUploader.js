@@ -18,7 +18,7 @@ const defaultProps = {
     ...SectionProps.defaults
 }
 
-const FileUploader = ({
+const WorkflowHeader = ({
     className,
     topOuterDivider,
     bottomOuterDivider,
@@ -135,7 +135,7 @@ const FileUploader = ({
                     </h1>
                     <div className="container-xs">
                         <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
-                            Place your wate item in front of the camera and obtain the right garbage bin.
+                            Place your waste item in front of the camera and obtain the right garbage bin.
                         </p>
                     </div>
 
@@ -153,7 +153,7 @@ const FileUploader = ({
     );
 }
 
-FileUploader.propTypes = propTypes;
-FileUploader.defaultProps = defaultProps;
+WorkflowHeader.propTypes = propTypes;
+WorkflowHeader.defaultProps = defaultProps;
 
-export default FileUploader;
+export default  WorkflowHeader;
