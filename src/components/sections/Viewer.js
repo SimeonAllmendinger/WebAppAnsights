@@ -36,11 +36,20 @@ const Viewer = ({
     ...props
 }) => {
 
+    // Webcam
     const webcamRef = useRef(null);
     const [capturedImg, setCapturedImg] = useState(null);
+    const [labelImg, setLabelImg] = useState(null);
     const [prediction, setPrediction] = useState("");
     const [isPaused, setPause] = useState(false);
     const ws = useRef(null);
+    
+
+    // Upload
+    const axios = require("axios");
+    const fs = require("fs");
+    const FormData = require('form-data');
+
 
     const outerClasses = classNames(
         'keywordGraph-outer section',
@@ -60,6 +69,34 @@ const Viewer = ({
     const tilesClasses = classNames(
         'tiles-wrap center-content',
     );
+
+    useEffect(() => {
+        e.preventDefault()
+        const formData = new FormData();
+        formData.append("name", "AactiveLearningImage.png");
+        formData.append("file", fs.createReadStream(labelImg));
+        formData.append("split", "train");
+
+        const upload = async () => {
+            await axios({
+                method: "POST",
+                url: "https://api.roboflow.com/dataset/YOUR_DATASET_NAME/upload",
+                params: {
+                    api_key: "yukG24QtDWLxpkhUXWO7"
+                },
+                data: formData,
+                headers: formData.getHeaders()
+            })
+            .then(function(response) {
+                console.log(response.data);
+            })
+            .catch(function(error) {
+                console.log(error.message);
+            });
+        };
+        upload();
+    });
+    
 
     useEffect(() => {
         const client_id = Date.now();
@@ -105,6 +142,11 @@ const Viewer = ({
         sendMessage(capturedImg);
     }, [webcamRef]);
 
+    const label = useCallback(() => {
+        const labelImg = webcamRef.current.getScreenshot();
+        setLabelImg(labelImg);
+    }, [webcamRef]);
+
     return (
         <section
             {...props}
@@ -137,6 +179,7 @@ const Viewer = ({
                                             Webcam
                                         </h4>
                                         <Button onClick={capture} color='dark'>Capture photo</Button>
+                                        <Button onClick={label} color='dark'>Capture photo</Button>
                                     </div>
                                 </div>
                             </div>
