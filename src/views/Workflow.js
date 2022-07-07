@@ -10,7 +10,7 @@ const Workflow = () => {
 
   return (
     <>
-      <FileUploader
+      <WorkflowHeader
         className="illustration-section-01"
         setRunning={setRunning}
         running={running}

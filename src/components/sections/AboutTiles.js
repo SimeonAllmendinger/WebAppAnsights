@@ -63,7 +63,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Emil.jpg')}
+                      src={require('../../assets/images/About/Simeon.jpg')}
                       alt="Emil"
                       height={60}
                       width={300} />
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Emil Meckel
+                    Micha
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    ugxal (at) student.kit.edu
+                    ... (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
                     Data Analyst
@@ -89,7 +89,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Joel.jpg')}
+                      src={require('../../assets/images/About/Simeon.jpg')}
                       alt="Joel"
                       height={60}
                       width={300} />
@@ -97,13 +97,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Joel Oswald
+                    Daniel
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    joel.oswald (at) student.kit.edu
+                    ... (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
-                    Software Engineer
+                    Data Analyst
                   </p>
 
                 </div>
@@ -123,10 +123,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 ">
-                    Simeon Allmendinger
+                    Leon
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    uerib (at) student.kit.edu
+                    ... (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
                     Software Engineer
@@ -141,7 +141,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Etienne.jpg')}
+                      src={require('../../assets/images/About/Simeon.jpg')}
                       alt="Etienne"
                       height={60}
                       width={300} />
@@ -149,13 +149,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 ">
-                    Etienne Posthumus
+                    Youxiang
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    eposthumus (at) gmail (dot) com
+                    ... (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
-                    Senior Researcher
+                    Data Scientist
                   </p>
 
                 </div>
@@ -166,7 +166,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('../../assets/images/About/Sasha.png')}
+                      src={require('../../assets/images/About/Simeon.jpg')}
                       alt="Sasha"
                       height={60}
                       width={300} />
@@ -174,38 +174,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 ">
-                    Sasha Bruns
+                    Simeon
                   </h4>
                   <p className="m-0 text-sm mb-8" >
-                    oleksandra.bruns (at) fiz-karlsruhe (dot) de
+                    uerib (at) student.kit.edu
                   </p>
                   <p className="m-32 text-sm">
-                    Junior Researcher
-                  </p>
-
-                </div>
-              </div>
-            </div>
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('../../assets/images/About/Tabea.jpeg')}
-                      alt="Tabea"
-                      height={60}
-                      width={300} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8 ">
-                    Tabea Tietz
-                  </h4>
-                  <p className="m-0 text-sm mb-8" >
-                    tabea.tietz (at) fiz-karlsruhe (dot) de
-                  </p>
-                  <p className="m-32 text-sm">
-                    Junior Researcher
+                    Software Architect
                   </p>
 
                 </div>

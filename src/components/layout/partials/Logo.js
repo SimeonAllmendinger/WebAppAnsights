@@ -24,8 +24,8 @@ const Logo = ({
           <Image
             src={logo_img}
             alt="Open"
-            width={200}
-            height={100} />
+            width={100}
+            height={200} />
         </Link>
       </h1>
     </div>

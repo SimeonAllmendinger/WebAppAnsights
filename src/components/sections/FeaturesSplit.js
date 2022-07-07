@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Workflow',
-    paragraph: 'You have your leaflet ready? Great, we can get started right away...'
+    paragraph: 'You have your waste at hand? Great, we can get started right away...'
   };
 
   return (
@@ -70,11 +70,10 @@ const FeaturesSplit = ({
                   Worry-free workflow
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Share your leaflet with us
+                  Your waste
                 </h3>
                 <p className="m-0">
-                  You just upload your flyer in one of the supported formats. In addition, you can choose the corresponding release date
-                  in the selection window.
+                  Take an image of your waste. All you have to do is turn on your webcam.
                 </p>
               </div>
               <div className={
@@ -84,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/example_flyer.jpg')}
+                  src={require('../../assets/images/waste_item.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -97,11 +96,10 @@ const FeaturesSplit = ({
                   Worry-free workflow
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Link databases to your query
+                  Obtain the correct trash can for you waste. 
                 </h3>
                 <p className="m-0">
-                  With the "Gemeinsame Normdatei" (GND) we included a powerful reference database to complete your search space
-                  with related keywords. More data connections will follow...
+                  Using state-of-the-art object detetcion algorithms we predict your waste item and propose a suitable trash can.
                 </p>
               </div>
               <div className={
@@ -111,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/GND_Logo.jpg')}
+                  src={require('../../assets/images/Hero_Garbage_Bins.png')}
                   alt="Features split 02"
                   style={{ width: '70%' }} />
               </div>
@@ -123,12 +121,11 @@ const FeaturesSplit = ({
                   Worry-free workflow
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Discover a new experience of source scans
+                  We need you to learn more active
                 </h3>
                 <p className="m-0">
-                  Our net graph shows the relations between all relevant articles of the Reichsanzeiger in accordance to your query.
-                  The distance to your leaflet and among articles in the Reichsanzeiger can give indications on a
-                  thematic dependency to simplify your search.
+                  We understand waste detection as a collective effort. If we cannot predict your waste item, just submit it and 
+                  we will include your image into our Active Learning approach - enhancing our model image by image ...
                 </p>
               </div>
               <div className={
@@ -138,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/example_graph.png')}
+                  src={require('../../assets/images/roboflow.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

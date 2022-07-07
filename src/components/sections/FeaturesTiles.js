@@ -47,9 +47,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Why ansights?',
-    paragraph: 'Participating in the Coding DaVinci Hackathon, we wanted to give insights and connect data sources with' +
-      'the German Reichsanzeiger making its rich treasure of historical references tangible.'
+    title: 'Why ?',
+    paragraph: 'Targeting a cyclic economy, correct garbage separation has the potential to be a game changer.'
   };
 
   return (
@@ -75,10 +74,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    context
+                    efficiency
                   </h4>
                   <p className="m-0 text-sm">
-                    Leaflets, mostly call, response or dispute with the immediate environment obtain its context.
+                    Green energy ressources are scarce. Garbage separation costs a lot of energy and prohibits efforts in recycling.
                   </p>
                 </div>
               </div>
@@ -97,10 +96,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    time machine
+                    globality
                   </h4>
                   <p className="m-0 text-sm">
-                    Historical voices from the Reichsanzeiger receive timeliness and enter into the discussion.
+                    Waste disposal has a global scale making your trash can decision 
+                    in the beginning crucial for all following work steps.
                   </p>
                 </div>
               </div>
@@ -119,10 +119,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    representation
+                    bureaucracy
                   </h4>
                   <p className="m-0 text-sm">
-                    A knowledge graph allows semantic representation of underlying database.
+                    Waste separation descriptions are often cumbersome and not user-oriented. 
+                    Thus, most people do it to the best of their knowledge and belief.
                   </p>
                 </div>
               </div>

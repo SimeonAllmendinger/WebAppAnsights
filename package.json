@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
+    "axios": "^0.27.2",
     "classnames": "^2.2.6",
     "html-to-react": "^1.4.8",
     "install": "^0.13.0",

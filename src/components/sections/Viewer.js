@@ -2,18 +2,10 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Webcam from "react-webcam";
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
 import Button from '../elements/Button';
-import SectionHeader from './partials/SectionHeader';
+import ButtonGroup from '../elements/ButtonGroup';
 import * as Loader from 'react-loader-spinner';
-import styled from "styled-components";
 import config from "../../config/config";
-
-const Wrapper = styled.div`
-  display: block;
-  margin: 0 auto;
-`;
 
 const propTypes = {
     ...SectionProps.types
@@ -39,17 +31,13 @@ const Viewer = ({
     // Webcam
     const webcamRef = useRef(null);
     const [capturedImg, setCapturedImg] = useState(null);
-    const [labelImg, setLabelImg] = useState(null);
+    const [submitImg, setSubmitImg] = useState(null);
+    const [submitBool, setSubmitBool] = useState(false);
     const [prediction, setPrediction] = useState("");
     const [isPaused, setPause] = useState(false);
-    const ws = useRef(null);
-    
-
-    // Upload
-    const axios = require("axios");
-    const fs = require("fs");
-    const FormData = require('form-data');
-
+    const [submitSuccess, setSubmitSuccess] = useState(true);
+    const ws_predict = useRef(null);
+    const ws_submit = useRef(null);
 
     const outerClasses = classNames(
         'keywordGraph-outer section',
@@ -69,52 +57,33 @@ const Viewer = ({
     const tilesClasses = classNames(
         'tiles-wrap center-content',
     );
-
-    useEffect(() => {
-        e.preventDefault()
-        const formData = new FormData();
-        formData.append("name", "AactiveLearningImage.png");
-        formData.append("file", fs.createReadStream(labelImg));
-        formData.append("split", "train");
-
-        const upload = async () => {
-            await axios({
-                method: "POST",
-                url: "https://api.roboflow.com/dataset/YOUR_DATASET_NAME/upload",
-                params: {
-                    api_key: "yukG24QtDWLxpkhUXWO7"
-                },
-                data: formData,
-                headers: formData.getHeaders()
-            })
-            .then(function(response) {
-                console.log(response.data);
-            })
-            .catch(function(error) {
-                console.log(error.message);
-            });
-        };
-        upload();
-    });
     
-
     useEffect(() => {
         const client_id = Date.now();
-        const url = `${config.WS_SERVER}/${client_id}`;
-        console.log(url);
-        ws.current = new WebSocket(url);
-        ws.current.onopen = () => console.log("ws opened");
-        ws.current.onclose = () => console.log("ws closed");
+        const url_predict = `${config.WS_SERVER}/${client_id}`;
+        const url_submit = `${config.WS_SUBMIT_SERVER}/${client_id}`;
 
+        console.log(url_predict);
+        console.log(url_submit);
+
+        ws_predict.current = new WebSocket(url_predict);
+        ws_submit.current = new WebSocket(url_submit);
+
+        ws_predict.current.onopen = () => console.log("ws opened");
+        ws_submit.current.onopen = () => console.log("ws opened");
+        ws_predict.current.onclose = () => console.log("ws closed");
+        ws_submit.current.onclose = () => console.log("ws closed");
+       
         return () => {
-            ws.current.close();
+            ws_predict.current.close();
+            ws_submit.current.close();
         };
     }, []);
 
     useEffect(() => {
-        if (!ws.current) return;
+        if (!ws_predict.current) return;
 
-        ws.current.onmessage = (event) => {
+        ws_predict.current.onmessage = (event) => {
             if (isPaused) return;
             const message = JSON.parse(event.data);
             console.log(message);
@@ -123,10 +92,27 @@ const Viewer = ({
         };
     }, [isPaused]);
 
-    function sendMessage(msg) {
-        if (!ws.current) return;
+    useEffect(() => {
+        if (!ws_submit.current) return;
 
-        ws.current.send(msg);
+        ws_submit.current.onmessage = (event) => {
+            if (isPaused) return;
+            const message = JSON.parse(event.data);
+            console.log(message.status);
+            setSubmitSuccess(JSON.parse(message.status).success);
+        };
+    }, [isPaused]);
+
+    function sendMessage(msg) {
+        if (!ws_predict.current) return;
+
+        ws_predict.current.send(msg);
+    }
+
+    function sendSubmit(sub) {
+        if (!ws_submit.current) return;
+
+        ws_submit.current.send(sub);
     }
 
     const videoConstraints = {
@@ -136,15 +122,23 @@ const Viewer = ({
     };
 
     const capture = useCallback(() => {
+        setSubmitBool(false)
+
         const capturedImg = webcamRef.current.getScreenshot();
         setCapturedImg(capturedImg);
+
         //console.log(capturedImg);
         sendMessage(capturedImg);
     }, [webcamRef]);
 
-    const label = useCallback(() => {
-        const labelImg = webcamRef.current.getScreenshot();
-        setLabelImg(labelImg);
+    const submit = useCallback(() => {
+        setSubmitBool(true)
+        
+        const submitImg = webcamRef.current.getScreenshot();
+        setSubmitImg(submitImg);
+
+        //console.log(submitImg);
+        sendSubmit(submitImg);
     }, [webcamRef]);
 
     return (
@@ -178,28 +172,53 @@ const Viewer = ({
                                         <h4 className="mt-0 mb-8">
                                             Webcam
                                         </h4>
-                                        <Button onClick={capture} color='dark'>Capture photo</Button>
-                                        <Button onClick={label} color='dark'>Capture photo</Button>
+                                        <ButtonGroup>
+                                        <Button onClick={capture} tag="a" color="secondary" wideMobile>Capture photo</Button>
+                                        <Button onClick={submit} color='dark' wideMobile>Submit photo</Button>
+                                        </ButtonGroup>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="tiles-item reveal-from-bottom">
-                                <div className="tiles-item-inner">
-                                    <div className="features-tiles-item-header">
-                                        <div className="features-tiles-item-image mb-16">
-                                            {capturedImg && <img src={capturedImg} width="100%" />}
+                            {submitBool ?
+                                <div className="tiles-item reveal-from-bottom">
+                                    <div className="tiles-item-inner">
+                                        <div className="features-tiles-item-header">
+                                            <div className="features-tiles-item-image mb-16">
+                                                {submitImg && <img src={submitImg} width="100%" alt=''/>}
+                                            </div>
+                                        </div>
+                                        <div className="features-tiles-item-content">
+                                            <h4 className="mt-0 mb-8">
+                                                Submission
+                                            </h4>
+                                            {submitSuccess ?
+                                                <h3>Thanks for your support!</h3>
+                                                :
+                                                <div>
+                                                    <h5>Something went wrong...   please try again!</h5>
+                                                </div>
+                                            }
                                         </div>
                                     </div>
-                                    <div className="features-tiles-item-content">
-                                        <h4 className="mt-0 mb-8">
-                                            Prediction
-                                        </h4>
-                                        <h3>{prediction && prediction}</h3>
+                                </div>
+                                :
+                                <div className="tiles-item reveal-from-bottom">
+                                    <div className="tiles-item-inner">
+                                        <div className="features-tiles-item-header">
+                                            <div className="features-tiles-item-image mb-16">
+                                                {capturedImg && <img src={capturedImg} width="100%" alt=''/>}
+                                            </div>
+                                        </div>
+                                        <div className="features-tiles-item-content">
+                                            <h4 className="mt-0 mb-8">
+                                                Prediction
+                                            </h4>
+                                            <h3>{prediction && prediction}</h3>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            }
                         </div>
                     }
                 </div>
