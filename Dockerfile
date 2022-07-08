@@ -12,7 +12,4 @@ COPY public ./public
 
 RUN npm install
 
-RUN npm install
-
 CMD ["npm", "start"]
-
